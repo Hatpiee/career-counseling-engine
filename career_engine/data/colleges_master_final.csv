@@ -1,0 +1,190 @@
+college_id,college_name,state,city,tier,institution_type,entrance_exam
+COL001,Indian Institute of Technology Bombay,Maharashtra,Mumbai,Tier1,IIT,JEE Advanced
+COL002,Indian Institute of Technology Delhi,Delhi,New Delhi,Tier1,IIT,JEE Advanced
+COL003,Indian Institute of Technology Madras,Tamil Nadu,Chennai,Tier1,IIT,JEE Advanced
+COL004,Indian Institute of Technology Kanpur,Uttar Pradesh,Kanpur,Tier1,IIT,JEE Advanced
+COL005,Indian Institute of Technology Kharagpur,West Bengal,Kharagpur,Tier1,IIT,JEE Advanced
+COL006,Indian Institute of Technology Roorkee,Uttarakhand,Roorkee,Tier1,IIT,JEE Advanced
+COL007,Indian Institute of Technology Guwahati,Assam,Guwahati,Tier1,IIT,JEE Advanced
+COL008,Indian Institute of Technology Hyderabad,Telangana,Hyderabad,Tier1,IIT,JEE Advanced
+COL009,Indian Institute of Technology Indore,Madhya Pradesh,Indore,Tier2,IIT,JEE Advanced
+COL010,Indian Institute of Technology Patna,Bihar,Patna,Tier2,IIT,JEE Advanced
+COL011,Indian Institute of Technology Mandi,Himachal Pradesh,Mandi,Tier2,IIT,JEE Advanced
+COL012,Indian Institute of Technology Bhubaneswar,Odisha,Bhubaneswar,Tier2,IIT,JEE Advanced
+COL013,Indian Institute of Technology Gandhinagar,Gujarat,Gandhinagar,Tier2,IIT,JEE Advanced
+COL014,Indian Institute of Technology Jodhpur,Rajasthan,Jodhpur,Tier2,IIT,JEE Advanced
+COL015,Indian Institute of Technology Ropar,Punjab,Rupnagar,Tier2,IIT,JEE Advanced
+COL016,Indian Institute of Technology Bhilai,Chhattisgarh,Bhilai,Tier2,IIT,JEE Advanced
+COL017,Indian Institute of Technology Goa,Goa,Ponda,Tier2,IIT,JEE Advanced
+COL018,Indian Institute of Technology Jammu,Jammu and Kashmir,Jammu,Tier2,IIT,JEE Advanced
+COL019,Indian Institute of Technology Dharwad,Karnataka,Dharwad,Tier2,IIT,JEE Advanced
+COL020,Indian Institute of Technology Tirupati,Tamil Nadu,Tirupati,Tier2,IIT,JEE Advanced
+COL021,Indian Institute of Technology Palakkad,Kerala,Palakkad,Tier2,IIT,JEE Advanced
+COL022,Indian Institute of Technology (BHU) Varanasi,Uttar Pradesh,Varanasi,Tier1,IIT,JEE Advanced
+COL023,Indian Institute of Technology (ISM) Dhanbad,Jharkhand,Dhanbad,Tier2,IIT,JEE Advanced
+COL024,Indian Institute of Science Bengaluru,Karnataka,Bengaluru,Tier1,IISc,JEE Advanced
+COL025,Birla Institute of Technology and Science Pilani,Rajasthan,Pilani,Tier1,Private,BITSAT
+COL026,Birla Institute of Technology and Science Goa,Goa,Goa,Tier2,Private,BITSAT
+COL027,Birla Institute of Technology and Science Hyderabad,Telangana,Hyderabad,Tier2,Private,BITSAT
+COL028,National Institute of Technology Tiruchirappalli,Tamil Nadu,Tiruchirappalli,Tier1,NIT,JEE Main
+COL029,National Institute of Technology Karnataka Surathkal,Karnataka,Surathkal,Tier1,NIT,JEE Main
+COL030,National Institute of Technology Warangal,Telangana,Warangal,Tier1,NIT,JEE Main
+COL031,National Institute of Technology Rourkela,Odisha,Rourkela,Tier1,NIT,JEE Main
+COL032,National Institute of Technology Calicut,Tamil Nadu,Kozhikode,Tier1,NIT,JEE Main
+COL033,Malaviya National Institute of Technology Jaipur,Rajasthan,Jaipur,Tier1,NIT,JEE Main
+COL034,Motilal Nehru National Institute of Technology Allahabad,Uttar Pradesh,Prayagraj,Tier1,NIT,JEE Main
+COL035,Visvesvaraya National Institute of Technology Nagpur,Maharashtra,Nagpur,Tier1,NIT,JEE Main
+COL036,Sardar Vallabhbhai National Institute of Technology Surat,Gujarat,Surat,Tier1,NIT,JEE Main
+COL037,National Institute of Technology Kurukshetra,Uttar Pradesh,Kurukshetra,Tier2,NIT,JEE Main
+COL038,National Institute of Technology Durgapur,West Bengal,Durgapur,Tier2,NIT,JEE Main
+COL039,National Institute of Technology Jamshedpur,Jharkhand,Jamshedpur,Tier2,NIT,JEE Main
+COL040,National Institute of Technology Jalandhar,Punjab,Jalandhar,Tier2,NIT,JEE Main
+COL041,National Institute of Technology Silchar,Assam,Silchar,Tier2,NIT,JEE Main
+COL042,Maulana Azad National Institute of Technology Bhopal,Madhya Pradesh,Bhopal,Tier2,NIT,JEE Main
+COL043,National Institute of Technology Raipur,Chhattisgarh,Raipur,Tier2,NIT,JEE Main
+COL044,National Institute of Technology Patna,Bihar,Patna,Tier2,NIT,JEE Main
+COL045,National Institute of Technology Hamirpur,Himachal Pradesh,Hamirpur,Tier2,NIT,JEE Main
+COL046,National Institute of Technology Agartala,Tripura,Agartala,Tier3A,NIT,JEE Main
+COL047,National Institute of Technology Meghalaya,Meghalaya,Shillong,Tier3A,NIT,JEE Main
+COL048,National Institute of Technology Nagaland,Nagaland,Dimapur,Tier3A,NIT,JEE Main
+COL049,National Institute of Technology Manipur,Manipur,Imphal,Tier3A,NIT,JEE Main
+COL050,National Institute of Technology Mizoram,Mizoram,Aizawl,Tier3A,NIT,JEE Main
+COL051,National Institute of Technology Arunachal Pradesh,Arunachal Pradesh,Yupia,Tier3A,NIT,JEE Main
+COL052,National Institute of Technology Puducherry,Puducherry,Karaikal,Tier3A,NIT,JEE Main
+COL053,National Institute of Technology Goa,Goa,Ponda,Tier3A,NIT,JEE Main
+COL054,Delhi Technological University,Delhi,New Delhi,Tier1,State Govt,JEE Main
+COL055,Netaji Subhas University of Technology,Delhi,New Delhi,Tier1,State Govt,JEE Main
+COL056,Jadavpur University,West Bengal,Kolkata,Tier1,State Govt,JEE Main
+COL057,College of Engineering Pune,Maharashtra,Pune,Tier2,State Govt,MHT CET
+COL058,Harcourt Butler Technical University Kanpur,Uttar Pradesh,Kanpur,Tier2,State Govt,JEE Main
+COL059,Anna University,Tamil Nadu,Chennai,Tier2,State Govt,JEE Main
+COL060,Punjab Engineering College Chandigarh,Punjab,Chandigarh,Tier2,GFTI,JEE Main
+COL061,Birla Institute of Technology Mesra,Jharkhand,Ranchi,Tier2,GFTI,JEE Main
+COL062,Indian Institute of Engineering Science and Technology Shibpur,West Bengal,Howrah,Tier2,State Govt,JEE Main
+COL063,Veermata Jijabai Technological Institute Mumbai,Maharashtra,Mumbai,Tier3A,State Govt,MHT CET
+COL064,International Institute of Information Technology Hyderabad,Telangana,Hyderabad,Tier1,IIIT,JEE Main
+COL065,International Institute of Information Technology Bangalore,Karnataka,Bengaluru,Tier1,IIIT,JEE Main
+COL066,International Institute of Information Technology Delhi,Delhi,New Delhi,Tier1,IIIT,JEE Main
+COL067,Indian Institute of Information Technology Allahabad,Uttar Pradesh,Prayagraj,Tier1,IIIT,JEE Main
+COL068,Indian Institute of Information Technology Lucknow,Uttar Pradesh,Lucknow,Tier2,IIIT,JEE Main
+COL069,Indian Institute of Information Technology Gwalior,Madhya Pradesh,Gwalior,Tier2,IIIT,JEE Main
+COL070,Indian Institute of Information Technology Jabalpur,Madhya Pradesh,Jabalpur,Tier2,IIIT,JEE Main
+COL071,Indian Institute of Information Technology Guwahati,Assam,Guwahati,Tier2,IIIT,JEE Main
+COL072,Indian Institute of Information Technology Kancheepuram,Tamil Nadu,Kanchipuram,Tier2,IIIT,JEE Main
+COL073,Indian Institute of Information Technology Kottayam,Kerala,Kottayam,Tier2,IIIT,JEE Main
+COL074,Indian Institute of Information Technology Vadodara,Gujarat,Vadodara,Tier2,IIIT,JEE Main
+COL075,Indian Institute of Information Technology Nagpur,Maharashtra,Nagpur,Tier2,IIIT,JEE Main
+COL076,Indian Institute of Information Technology Sri City,Andhra Pradesh,Sri City,Tier2,IIIT,JEE Main
+COL077,LNM Institute of Information Technology Jaipur,Rajasthan,Jaipur,Tier3A,State Govt,JEE Main
+COL078,PSG College of Technology,Tamil Nadu,Coimbatore,Tier3A,Private,TNEA
+COL079,Vellore Institute of Technology Vellore,Tamil Nadu,Vellore,Tier3A,Private,VITEEE
+COL080,Manipal Institute of Technology Manipal,Karnataka,Manipal,Tier3A,Private,MET
+COL081,SRM Institute of Science and Technology,Tamil Nadu,Chennai,Tier3A,Private,SRMJEEE
+COL082,KIIT University Bhubaneswar,Odisha,Bhubaneswar,Tier3A,Private,KIITEE
+COL083,Thapar Institute of Engineering and Technology,Punjab,Patiala,Tier3A,Private,JEE Main
+COL084,Amrita Vishwa Vidyapeetham,Tamil Nadu,Coimbatore,Tier3A,Private,AEEE
+COL085,Shiv Nadar University,Uttar Pradesh,Greater Noida,Tier3A,Private,SNUSAT
+COL086,RV College of Engineering,Karnataka,Bengaluru,Tier3A,Private,KCET/COMEDK
+COL087,BMS College of Engineering,Karnataka,Bengaluru,Tier3A,Private,KCET/COMEDK
+COL088,MS Ramaiah Institute of Technology,Karnataka,Bengaluru,Tier3A,Private,KCET/COMEDK
+COL089,Dayananda Sagar College of Engineering,Karnataka,Bengaluru,Tier3A,Private,KCET/COMEDK
+COL090,PES University,Karnataka,Bengaluru,Tier3A,Private,KCET/COMEDK
+COL091,Siddaganga Institute of Technology,Karnataka,Tumakuru,Tier3A,Private,KCET/COMEDK
+COL092,Bangalore Institute of Technology,Karnataka,Bengaluru,Tier3A,Private,KCET/COMEDK
+COL093,Government Engineering College Thrissur,Kerala,Thrissur,Tier3A,State Govt,KEAM
+COL094,College of Engineering Trivandrum,Kerala,Thiruvananthapuram,Tier3A,State Govt,KEAM
+COL095,Rajiv Gandhi Institute of Technology Kottayam,Kerala,Kottayam,Tier3A,State Govt,KEAM
+COL096,Government College of Engineering Kannur,Kerala,Kannur,Tier3A,State Govt,KEAM
+COL097,TKM College of Engineering,Kerala,Kollam,Tier3A,State Govt,KEAM
+COL098,Government Engineering College Barton Hill,Kerala,Thiruvananthapuram,Tier3A,State Govt,KEAM
+COL099,Government Engineering College Kozhikode,Kerala,Kozhikode,Tier3A,State Govt,KEAM
+COL100,Guru Nanak Dev Engineering College Ludhiana,Punjab,Ludhiana,Tier3A,State Govt,Punjab CET
+COL101,Chandigarh University,Punjab,Mohali,Tier3A,State Govt,Punjab CET
+COL102,Lovely Professional University,Punjab,Phagwara,Tier3A,Private,LPUNEST
+COL103,Amity University Noida,Uttar Pradesh,Noida,Tier3A,Private,Amity JEE
+COL104,Amity University Gurugram,Haryana,Gurugram,Tier3A,Private,Amity JEE
+COL105,NorthCap University Gurugram,Haryana,Gurugram,Tier3A,Private,JEE Main
+COL106,Maharishi Markandeshwar University,Haryana,Ambala,Tier3A,Private,JEE Main
+COL107,Guru Jambheshwar University of Science and Technology,Haryana,Hisar,Tier3A,Private,JEE Main
+COL108,Deenbandhu Chhotu Ram University of Science and Technology,Haryana,Murthal,Tier3A,State Govt,JEE Main
+COL109,Jaypee Institute of Information Technology,Himachal Pradesh,Solan,Tier3A,State Govt,JEE Main
+COL110,Jaypee University of Information Technology,Delhi,New Delhi,Tier3A,Private,JEE Main
+COL111,Indraprastha Institute of Information Technology Delhi,Delhi,New Delhi,Tier3A,Private,JEE Main
+COL112,Jamia Millia Islamia,Delhi,New Delhi,Tier3A,IIIT,JEE Main
+COL113,University School of Information Technology GGSIPU,Delhi,New Delhi,Tier3A,Central University,JEE Main
+COL114,Heritage Institute of Technology Kolkata,West Bengal,Kolkata,Tier3A,State Govt,WBJEE
+COL115,Institute of Engineering and Management Kolkata,West Bengal,Kolkata,Tier3A,Private,WBJEE
+COL116,Haldia Institute of Technology,West Bengal,Haldia,Tier3A,Private,WBJEE
+COL117,JIS College of Engineering,West Bengal,Kalyani,Tier3B,Private,WBJEE
+COL118,Kalyani Government Engineering College,West Bengal,Kalyani,Tier3A,State Govt,WBJEE
+COL119,Techno India University,West Bengal,Kolkata,Tier3B,State Govt,WBJEE
+COL120,Silicon University Bhubaneswar,Odisha,Bhubaneswar,Tier3B,Private,OJEE
+COL121,Indira Gandhi Institute of Technology Sarang,Odisha,Sarang,Tier3B,State Govt,OJEE
+COL122,Parala Maharaja Engineering College,Odisha,Paralakhemundi,Tier3B,State Govt,OJEE
+COL123,GITA Autonomous College Bhubaneswar,Odisha,Bhubaneswar,Tier3B,State Govt,OJEE
+COL124,CV Raman Global University,Odisha,Bhubaneswar,Tier3B,Private,OJEE
+COL125,Centurion University of Technology and Management,Odisha,Bhubaneswar,Tier3B,Private,OJEE
+COL126,Veer Surendra Sai University of Technology,Odisha,Burla,Tier3B,Private,OJEE
+COL127,Andhra University College of Engineering,Andhra Pradesh,Visakhapatnam,Tier3B,State Govt,AP EAMCET
+COL128,Jawaharlal Nehru Technological University Hyderabad,Telangana,Hyderabad,Tier3B,State Govt,TS EAMCET
+COL129,Jawaharlal Nehru Technological University Kakinada,Andhra Pradesh,Kakinada,Tier3B,State Govt,AP EAMCET
+COL130,Jawaharlal Nehru Technological University Anantapur,Andhra Pradesh,Anantapur,Tier3B,State Govt,AP EAMCET
+COL131,Osmania University College of Engineering,Telangana,Hyderabad,Tier3B,State Govt,TS EAMCET
+COL132,VNR Vignana Jyothi Institute of Engineering and Technology,Telangana,Hyderabad,Tier3B,Private,TS EAMCET
+COL133,Chaitanya Bharathi Institute of Technology,Telangana,Hyderabad,Tier3B,Private,TS EAMCET
+COL134,MVSR Engineering College,Telangana,Hyderabad,Tier3B,Private,TS EAMCET
+COL135,Vignan University,Andhra Pradesh,Guntur,Tier3B,Private,AP EAMCET
+COL136,GITAM University Visakhapatnam,Andhra Pradesh,Visakhapatnam,Tier3B,Private,AP EAMCET
+COL137,SRM University AP Amaravati,Andhra Pradesh,Amaravati,Tier3A,Private,SRMJEEE
+COL138,VIT AP University,Andhra Pradesh,Amaravati,Tier3B,Private,VITEEE
+COL139,DAIICT Gandhinagar,Gujarat,Gandhinagar,Tier3B,Private,GUJCET
+COL140,Nirma University Ahmedabad,Gujarat,Ahmedabad,Tier3B,Private,GUJCET
+COL141,Pandit Deendayal Energy University,Gujarat,Gandhinagar,Tier3B,Private,GUJCET
+COL142,LD College of Engineering Ahmedabad,Gujarat,Ahmedabad,Tier3B,Private,GUJCET
+COL143,CHARUSAT University,Gujarat,Anand,Tier3B,State Govt,GUJCET
+COL144,Government Engineering College Gandhinagar,Gujarat,Gandhinagar,Tier3A,State Govt,GUJCET
+COL145,Government Engineering College Rajkot,Gujarat,Rajkot,Tier3A,State Govt,GUJCET
+COL146,Walchand College of Engineering Sangli,Maharashtra,Sangli,Tier3B,State Govt,MHT CET
+COL147,Vishwakarma Institute of Technology Pune,Maharashtra,Pune,Tier3B,State Govt,MHT CET
+COL148,Pune Institute of Computer Technology,Maharashtra,Pune,Tier3B,State Govt,MHT CET
+COL149,Dwarkadas J Sanghvi College of Engineering,Maharashtra,Mumbai,Tier3B,State Govt,MHT CET
+COL150,Bharati Vidyapeeth College of Engineering Pune,Maharashtra,Pune,Tier3B,State Govt,MHT CET
+COL151,MIT World Peace University Pune,Maharashtra,Pune,Tier3B,State Govt,MHT CET
+COL152,Sardar Patel Institute of Technology Mumbai,Maharashtra,Mumbai,Tier3B,State Govt,MHT CET
+COL153,Thadomal Shahani Engineering College,Maharashtra,Mumbai,Tier3B,State Govt,MHT CET
+COL154,Fr Conceicao Rodrigues College of Engineering,Maharashtra,Mumbai,Tier3B,State Govt,MHT CET
+COL155,KJ Somaiya College of Engineering,Maharashtra,Mumbai,Tier3B,State Govt,MHT CET
+COL156,Government College of Engineering Aurangabad,Maharashtra,Aurangabad,Tier3B,State Govt,MHT CET
+COL157,Government College of Engineering Karad,Maharashtra,Karad,Tier3B,State Govt,MHT CET
+COL158,Government College of Engineering Nashik,Maharashtra,Nashik,Tier3B,State Govt,MHT CET
+COL159,Government College of Engineering Amravati,Maharashtra,Amravati,Tier3B,State Govt,MHT CET
+COL160,Government College of Engineering Nagpur,Maharashtra,Nagpur,Tier3B,State Govt,MHT CET
+COL161,MBM University Jodhpur,Rajasthan,Jodhpur,Tier3B,State Govt,REAP
+COL162,Manipal University Jaipur,Rajasthan,Jaipur,Tier3A,Private,REAP
+COL163,JECRC University Jaipur,Rajasthan,Jaipur,Tier3B,State Govt,REAP
+COL164,Poornima College of Engineering,Rajasthan,Jaipur,Tier3B,State Govt,REAP
+COL165,University College of Engineering Kota,Rajasthan,Kota,Tier3B,State Govt,REAP
+COL166,SGSITS Indore,Madhya Pradesh,Indore,Tier3B,State Govt,MPDTE
+COL167,Institute of Engineering and Technology DAVV,Madhya Pradesh,Indore,Tier3B,State Govt,MPDTE
+COL168,VIT Bhopal,Madhya Pradesh,Bhopal,Tier3B,State Govt,VITEEE
+COL169,Jabalpur Engineering College,Madhya Pradesh,Jabalpur,Tier3B,State Govt,MPDTE
+COL170,Madhav Institute of Technology and Science Gwalior,Madhya Pradesh,Gwalior,Tier3B,State Govt,MPDTE
+COL171,BIT Patna,Bihar,Patna,Tier3B,State Govt,BCECE
+COL172,MIT Muzaffarpur,Bihar,Muzaffarpur,Tier3B,State Govt,BCECE
+COL173,Bhagalpur College of Engineering,Bihar,Bhagalpur,Tier3B,State Govt,BCECE
+COL174,Nalanda College of Engineering,Bihar,Chandi,Tier3B,State Govt,BCECE
+COL175,Gaya College of Engineering,Bihar,Gaya,Tier3B,State Govt,BCECE
+COL176,BIT Sindri,Jharkhand,Dhanbad,Tier3B,State Govt,JCECE
+COL177,IIIT Ranchi,Jharkhand,Ranchi,Tier3B,State Govt,JCECE
+COL178,NIAMT Ranchi,Jharkhand,Ranchi,Tier3B,State Govt,JCECE
+COL179,IIIT Naya Raipur,Chhattisgarh,Naya Raipur,Tier3B,Private,JEE Main
+COL180,Guru Ghasidas University,Chhattisgarh,Bilaspur,Tier3B,Private,JEE Main
+COL181,BIT Durg,Chhattisgarh,Durg,Tier3B,Private,JEE Main
+COL182,UPES Dehradun,Uttarakhand,Dehradun,Tier3B,Private,JEE Main
+COL183,Graphic Era University,Uttarakhand,Dehradun,Tier3B,State Govt,UKSEE
+COL184,DIT University Dehradun,Uttarakhand,Dehradun,Tier3B,State Govt,UKSEE
+COL185,Dev Bhoomi Uttarakhand University,Uttarakhand,Dehradun,Tier3B,State Govt,UKSEE
+COL186,Government Engineering College Hamirpur,Himachal Pradesh,Hamirpur,Tier3A,State Govt,HPCET
+COL187,GCET Jammu,Jammu and Kashmir,Jammu,Tier3B,Central University,JKCET
+COL188,MIET Jammu,Jammu and Kashmir,Jammu,Tier3B,State Govt,JKCET
+COL189,Pondicherry Engineering College,Puducherry,Puducherry,Tier3B,Private,JEE Main
