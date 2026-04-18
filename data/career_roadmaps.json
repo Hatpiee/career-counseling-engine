@@ -1,0 +1,1319 @@
+{
+  "career_database": {
+    "version": "1.1",
+    "roles": [
+      {
+  "id": "SWE_001",
+  "role_name": "Software Engineer",
+  "career_domain": "software_engineering",
+  "career_description": "Software engineers design, develop, test, and maintain software systems and applications across platforms using programming languages and engineering principles.",
+  "key_skills": ["programming","data structures","algorithms","system design","problem solving"],
+  "tags": [
+"software engineering",
+"programming",
+"algorithms",
+"data structures",
+"system design",
+"software development",
+"coding"
+],
+  "roadmap": {
+    "foundations": [
+      {
+        "step": "Master C++ or Java syntax",
+        "type": "Skill",
+        "difficulty": "Beginner",
+        "tags": ["programming", "cpp", "java"]
+      },
+      {
+        "step": "Understand Data Structures & Algorithms",
+        "type": "Concept",
+        "difficulty": "Beginner",
+        "tags": ["data_structures", "algorithms"]
+      },
+      {
+        "step": "Learn Computer Architecture",
+        "type": "Concept",
+        "difficulty": "Beginner",
+        "tags": ["computer_architecture"]
+      },
+      {
+        "step": "Study Operating Systems basics",
+        "type": "Concept",
+        "difficulty": "Beginner",
+        "tags": ["operating_systems"]
+      }
+    ],
+
+    "core_skills": [
+      {
+        "step": "Master Object-Oriented Programming (OOP)",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["oop", "software_design"]
+      },
+      {
+        "step": "Learn Version Control with Git",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["git", "version_control"]
+      },
+      {
+        "step": "Implement Software Testing & Debugging",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["testing", "debugging"]
+      }
+    ],
+
+    "projects": [
+      {
+        "step": "Build a Desktop Calculator App",
+        "type": "Project",
+        "difficulty": "Beginner",
+        "tags": ["desktop_app", "programming_project"]
+      },
+      {
+        "step": "Develop a Personal Inventory System",
+        "type": "Project",
+        "difficulty": "Intermediate",
+        "tags": ["inventory_system", "software_project"]
+      }
+    ],
+
+    "experience": [
+      {
+        "step": "Apply for Summer SDE Internships",
+        "type": "Experience",
+        "difficulty": "Intermediate",
+        "tags": ["internship", "software_engineering"]
+      },
+      {
+        "step": "Contribute to Open Source on GitHub",
+        "type": "Experience",
+        "difficulty": "Intermediate",
+        "tags": ["open_source", "github"]
+      }
+    ],
+
+    "job_prep": [
+      {
+        "step": "Solve 200+ LeetCode problems",
+        "type": "Preparation",
+        "difficulty": "Advanced",
+        "tags": ["dsa", "leetcode"]
+      },
+      {
+        "step": "Practice Mock Technical Interviews",
+        "type": "Preparation",
+        "difficulty": "Advanced",
+        "tags": ["interviews", "technical_interview"]
+      },
+      {
+        "step": "Refine Resume for ATS optimization",
+        "type": "Preparation",
+        "difficulty": "Intermediate",
+        "tags": ["resume", "ats"]
+      }
+    ]
+  }
+},
+      {
+  "id": "BEND_002",
+  "role_name": "Backend Developer",
+  "career_domain": "software_engineering",
+  "career_description": "Backend developers build and maintain server-side logic, APIs, and databases that power web and mobile applications.",
+  "key_skills": ["api development","databases","server architecture","python","nodejs"],
+  "tags": [
+"backend development",
+"server side programming",
+"api development",
+"databases",
+"microservices",
+"web backend",
+"scalable systems"
+],
+  "roadmap": {
+    "foundations": [
+      {
+        "step": "Learn Python or Go programming",
+        "type": "Skill",
+        "difficulty": "Beginner",
+        "tags": ["python", "golang", "backend_programming"]
+      },
+      {
+        "step": "Understand HTTP/HTTPS protocols",
+        "type": "Concept",
+        "difficulty": "Beginner",
+        "tags": ["http", "https", "web_protocols"]
+      },
+      {
+        "step": "Learn SQL Basics",
+        "type": "Skill",
+        "difficulty": "Beginner",
+        "tags": ["sql", "databases"]
+      }
+    ],
+
+    "core_skills": [
+      {
+        "step": "Build RESTful APIs with Node.js or Django",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["rest_api", "nodejs", "django"]
+      },
+      {
+        "step": "Manage PostgreSQL or MongoDB Databases",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["postgresql", "mongodb", "database_management"]
+      },
+      {
+        "step": "Implement Server Deployment & Management",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["server_deployment", "backend_infrastructure"]
+      }
+    ],
+
+    "projects": [
+      {
+        "step": "Create a secure Authentication API",
+        "type": "Project",
+        "difficulty": "Intermediate",
+        "tags": ["authentication", "api_security"]
+      },
+      {
+        "step": "Build a Real-time Chat Backend",
+        "type": "Project",
+        "difficulty": "Intermediate",
+        "tags": ["websockets", "real_time_systems"]
+      }
+    ],
+
+    "experience": [
+      {
+        "step": "Apply for Backend Developer Internships",
+        "type": "Experience",
+        "difficulty": "Intermediate",
+        "tags": ["internship", "backend_development"]
+      },
+      {
+        "step": "Build API for a Non-profit Organization",
+        "type": "Experience",
+        "difficulty": "Intermediate",
+        "tags": ["api_project", "real_world_project"]
+      }
+    ],
+
+    "job_prep": [
+      {
+        "step": "Master System Design Fundamentals",
+        "type": "Preparation",
+        "difficulty": "Advanced",
+        "tags": ["system_design", "backend_architecture"]
+      },
+      {
+        "step": "Study Database Indexing & Optimization",
+        "type": "Preparation",
+        "difficulty": "Advanced",
+        "tags": ["database_optimization", "indexing"]
+      }
+    ]
+  }
+},
+     {
+  "id": "FSD_003",
+  "role_name": "Full Stack Developer",
+  "career_domain": "software_engineering",
+  "career_description": "Full stack developers build complete applications by working on both the front-end user interface and the back-end server and database systems.",
+  "key_skills": ["javascript","frontend development","backend development","react","web architecture"],
+  "tags": [
+"full stack development",
+"frontend",
+"backend",
+"web development",
+"javascript",
+"react",
+"nodejs"
+],
+  "roadmap": {
+    "foundations": [
+      {
+        "step": "Master HTML5 & CSS3 Layouts",
+        "type": "Skill",
+        "difficulty": "Beginner",
+        "tags": ["html", "css", "web_design"]
+      },
+      {
+        "step": "Learn JavaScript Fundamentals",
+        "type": "Skill",
+        "difficulty": "Beginner",
+        "tags": ["javascript", "frontend_programming"]
+      },
+      {
+        "step": "Understand Web Architecture",
+        "type": "Concept",
+        "difficulty": "Beginner",
+        "tags": ["web_architecture", "client_server"]
+      }
+    ],
+
+    "core_skills": [
+      {
+        "step": "Master Front-end Frameworks (React/Vue)",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["react", "vue", "frontend_frameworks"]
+      },
+      {
+        "step": "Build Back-ends with Node.js/Express",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["nodejs", "express", "backend_development"]
+      },
+      {
+        "step": "Implement State Management (Redux/Context API)",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["redux", "state_management"]
+      }
+    ],
+
+    "projects": [
+      {
+        "step": "Build a Full-stack E-commerce Site",
+        "type": "Project",
+        "difficulty": "Advanced",
+        "tags": ["ecommerce", "fullstack_project"]
+      },
+      {
+        "step": "Develop a Social Media Dashboard",
+        "type": "Project",
+        "difficulty": "Intermediate",
+        "tags": ["dashboard", "web_application"]
+      }
+    ],
+
+    "experience": [
+      {
+        "step": "Apply for Full Stack Internships",
+        "type": "Experience",
+        "difficulty": "Intermediate",
+        "tags": ["internship", "fullstack_development"]
+      },
+      {
+        "step": "Freelance Web Development for local clients",
+        "type": "Experience",
+        "difficulty": "Intermediate",
+        "tags": ["freelancing", "web_projects"]
+      }
+    ],
+
+    "job_prep": [
+      {
+        "step": "Build a Comprehensive Portfolio Website",
+        "type": "Preparation",
+        "difficulty": "Intermediate",
+        "tags": ["portfolio", "personal_website"]
+      },
+      {
+        "step": "Practice Frontend Coding Challenges",
+        "type": "Preparation",
+        "difficulty": "Advanced",
+        "tags": ["coding_challenges", "frontend_interviews"]
+      }
+    ]
+  }
+},
+      {
+  "id": "MLE_004",
+  "role_name": "Machine Learning Engineer",
+  "career_domain": "artificial_intelligence",
+  "career_description": "Machine learning engineers design, train, and deploy machine learning models that allow systems to learn from data and make predictions.",
+  "key_skills": ["python","machine learning","deep learning","model training","data processing"],
+  "tags": [
+"machine learning",
+"deep learning",
+"artificial intelligence",
+"model training",
+"python",
+"ml systems",
+"data science"
+],
+  "roadmap": {
+    "foundations": [
+      {
+        "step": "Learn Python programming for ML",
+        "type": "Skill",
+        "difficulty": "Beginner",
+        "tags": ["python", "machine_learning"]
+      },
+      {
+        "step": "Study Linear Algebra",
+        "type": "Concept",
+        "difficulty": "Beginner",
+        "tags": ["linear_algebra", "mathematics"]
+      },
+      {
+        "step": "Master Statistics & Probability",
+        "type": "Concept",
+        "difficulty": "Beginner",
+        "tags": ["statistics", "probability"]
+      }
+    ],
+
+    "core_skills": [
+      {
+        "step": "Implement Machine Learning Algorithms",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["machine_learning", "ml_algorithms"]
+      },
+      {
+        "step": "Master Deep Learning (TensorFlow/PyTorch)",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["deep_learning", "pytorch", "tensorflow"]
+      },
+      {
+        "step": "Perform Feature Engineering",
+        "type": "Skill",
+        "difficulty": "Intermediate",
+        "tags": ["feature_engineering", "data_processing"]
+      }
+    ],
+
+    "projects": [
+      {
+        "step": "Build a Spam Email Classifier",
+        "type": "Project",
+        "difficulty": "Intermediate",
+        "tags": ["nlp", "classification"]
+      },
+      {
+        "step": "Create an Image Classification Model",
+        "type": "Project",
+        "difficulty": "Intermediate",
+        "tags": ["computer_vision", "cnn"]
+      },
+      {
+        "step": "Develop a Recommendation System",
+        "type": "Project",
+        "difficulty": "Advanced",
+        "tags": ["recommendation_system", "ml_project"]
+      }
+    ],
+
+    "experience": [
+      {
+        "step": "Apply for ML Research Internships",
+        "type": "Experience",
+        "difficulty": "Intermediate",
+        "tags": ["internship", "machine_learning"]
+      },
+      {
+        "step": "Participate in Kaggle Competitions",
+        "type": "Experience",
+        "difficulty": "Intermediate",
+        "tags": ["kaggle", "data_science_competitions"]
+      }
+    ],
+
+    "job_prep": [
+      {
+        "step": "Practice ML Interview Questions",
+        "type": "Preparation",
+        "difficulty": "Advanced",
+        "tags": ["ml_interviews", "machine_learning"]
+      },
+      {
+        "step": "Study ML System Design",
+        "type": "Preparation",
+        "difficulty": "Advanced",
+        "tags": ["ml_system_design", "ai_architecture"]
+      }
+    ]
+  }
+},
+      {
+  "id": "DS_005",
+  "role_name": "Data Scientist",
+  "career_domain": "artificial_intelligence",
+  "career_description": "Data scientists analyze large datasets using statistics and machine learning to uncover insights and support data-driven decision making.",
+  "key_skills": ["data analysis","statistics","machine learning","data visualization","python"],
+  "tags": [
+"data science",
+"data analysis",
+"machine learning",
+"statistics",
+"data visualization",
+"predictive modeling"
+],
+  "roadmap": {
+    "foundations": [
+      {"step": "Master Python for Data Science", "type": "Skill", "difficulty": "Beginner", "tags": ["python","data_science"]},
+      {"step": "Learn Data Manipulation with Pandas", "type": "Skill", "difficulty": "Beginner", "tags": ["pandas","data_processing"]},
+      {"step": "Study Exploratory Data Analysis (EDA)", "type": "Concept", "difficulty": "Beginner", "tags": ["eda","data_analysis"]}
+    ],
+    "core_skills": [
+      {"step": "Perform Statistical Modeling", "type": "Skill", "difficulty": "Intermediate", "tags": ["statistics","modeling"]},
+      {"step": "Master Data Visualization (Tableau/Matplotlib)", "type": "Skill", "difficulty": "Intermediate", "tags": ["data_visualization","tableau","matplotlib"]},
+      {"step": "Execute Advanced SQL for Data Analysis", "type": "Skill", "difficulty": "Intermediate", "tags": ["sql","data_analysis"]}
+    ],
+    "projects": [
+      {"step": "Predict Stock Market Trends", "type": "Project", "difficulty": "Advanced", "tags": ["time_series","finance_ml"]},
+      {"step": "Analyze Customer Churn Data", "type": "Project", "difficulty": "Intermediate", "tags": ["churn_analysis","classification"]}
+    ],
+    "experience": [
+      {"step": "Apply for Data Science Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship","data_science"]},
+      {"step": "Work on Data for Good social projects", "type": "Experience", "difficulty": "Intermediate", "tags": ["social_impact","data_projects"]}
+    ],
+    "job_prep": [
+      {"step": "Build a GitHub Portfolio of Notebooks", "type": "Preparation", "difficulty": "Intermediate", "tags": ["portfolio","github"]},
+      {"step": "Practice Data Storytelling & Presentation", "type": "Preparation", "difficulty": "Advanced", "tags": ["data_storytelling","presentation"]}
+    ]
+  }
+},
+      {
+  "id": "DE_006",
+  "role_name": "Data Engineer",
+  "career_domain": "data_engineering",
+  "career_description": "Data engineers build and maintain data pipelines, storage systems, and infrastructure that enable efficient data processing and analytics.",
+  "key_skills": ["sql","data pipelines","etl","big data","data warehousing"],
+  "tags": [
+"data engineering",
+"data pipelines",
+"etl",
+"big data",
+"spark",
+"data warehousing",
+"data infrastructure"
+],
+  "roadmap": {
+    "foundations": [
+      {"step": "Master Advanced SQL", "type": "Skill", "difficulty": "Beginner", "tags": ["sql","databases"]},
+      {"step": "Learn Python for Automation", "type": "Skill", "difficulty": "Beginner", "tags": ["python","automation"]},
+      {"step": "Understand Data Warehousing concepts", "type": "Concept", "difficulty": "Beginner", "tags": ["data_warehouse","etl"]}
+    ],
+    "core_skills": [
+      {"step": "Develop ETL Pipelines", "type": "Skill", "difficulty": "Intermediate", "tags": ["etl","data_pipeline"]},
+      {"step": "Master Big Data Tools (Spark/Hadoop)", "type": "Skill", "difficulty": "Intermediate", "tags": ["spark","hadoop","big_data"]},
+      {"step": "Manage Cloud Data (Snowflake/BigQuery)", "type": "Skill", "difficulty": "Intermediate", "tags": ["snowflake","bigquery","cloud_data"]}
+    ],
+    "projects": [
+      {"step": "Build a Real-time Data Pipeline", "type": "Project", "difficulty": "Advanced", "tags": ["streaming","data_pipeline"]},
+      {"step": "Scrape and Store Web Data in AWS S3", "type": "Project", "difficulty": "Intermediate", "tags": ["web_scraping","aws_s3"]}
+    ],
+    "experience": [
+      {"step": "Apply for Data Engineering Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship","data_engineering"]},
+      {"step": "Assist in Database Migration projects", "type": "Experience", "difficulty": "Intermediate", "tags": ["database_migration"]}
+    ],
+    "job_prep": [
+      {"step": "Practice Distributed Systems questions", "type": "Preparation", "difficulty": "Advanced", "tags": ["distributed_systems"]},
+      {"step": "Study Data Modeling & Schema Design", "type": "Preparation", "difficulty": "Advanced", "tags": ["data_modeling","schema_design"]}
+    ]
+  }
+},
+      {
+  "id": "CE_007",
+  "role_name": "Cloud Engineer",
+  "career_domain": "cloud_devops",
+  "career_description": "Cloud engineers design and manage cloud infrastructure and services used to deploy, scale, and maintain modern applications.",
+  "key_skills": ["cloud computing","aws","cloud architecture","networking","infrastructure"],
+  "tags": [
+"cloud computing",
+"aws",
+"azure",
+"gcp",
+"cloud infrastructure",
+"cloud deployment",
+"cloud architecture"
+],
+  "roadmap": {
+    "foundations": [
+      {"step": "Understand Networking (TCP/IP, DNS)", "type": "Concept", "difficulty": "Beginner", "tags": ["networking","tcp_ip","dns"]},
+      {"step": "Learn Linux Command Line", "type": "Skill", "difficulty": "Beginner", "tags": ["linux","cli"]},
+      {"step": "Learn Virtualization Basics", "type": "Concept", "difficulty": "Beginner", "tags": ["virtualization"]}
+    ],
+    "core_skills": [
+      {"step": "Manage AWS/Azure/GCP Administration", "type": "Skill", "difficulty": "Intermediate", "tags": ["aws","azure","gcp"]},
+      {"step": "Implement Infrastructure as Code (Terraform)", "type": "Skill", "difficulty": "Intermediate", "tags": ["terraform","iac"]},
+      {"step": "Configure Cloud Security & Compliance", "type": "Skill", "difficulty": "Intermediate", "tags": ["cloud_security"]}
+    ],
+    "projects": [
+      {"step": "Host a Static Website on AWS S3", "type": "Project", "difficulty": "Beginner", "tags": ["aws_s3","cloud_hosting"]},
+      {"step": "Set up a Multi-tier Cloud Architecture", "type": "Project", "difficulty": "Advanced", "tags": ["cloud_architecture"]}
+    ],
+    "experience": [
+      {"step": "Apply for Cloud Support Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship","cloud"]},
+      {"step": "Assist in Cloud Migration Projects", "type": "Experience", "difficulty": "Intermediate", "tags": ["cloud_migration"]}
+    ],
+    "job_prep": [
+      {"step": "Earn Cloud Certifications (AWS/Azure)", "type": "Preparation", "difficulty": "Intermediate", "tags": ["certification","cloud"]},
+      {"step": "Practice Whiteboard System Architecture", "type": "Preparation", "difficulty": "Advanced", "tags": ["system_design"]}
+    ]
+  }
+},
+      {
+  "id": "DEVOPS_008",
+  "role_name": "DevOps Engineer",
+  "career_domain": "cloud_devops",
+  "career_description": "DevOps engineers automate software delivery and infrastructure management to enable faster and more reliable software deployment.",
+  "key_skills": ["ci cd","docker","kubernetes","automation","linux"],
+  "tags": [
+"devops",
+"ci cd",
+"automation",
+"infrastructure",
+"docker",
+"kubernetes",
+"cloud operations"
+],
+  "roadmap": {
+    "foundations": [
+      {"step": "Master Advanced Linux Administration", "type": "Skill", "difficulty": "Beginner", "tags": ["linux","system_admin"]},
+      {"step": "Learn Bash Scripting", "type": "Skill", "difficulty": "Beginner", "tags": ["bash","scripting"]},
+      {"step": "Understand SDLC and Agile", "type": "Concept", "difficulty": "Beginner", "tags": ["sdlc","agile"]}
+    ],
+    "core_skills": [
+      {"step": "Configure CI/CD Pipelines (Jenkins/GitLab)", "type": "Skill", "difficulty": "Intermediate", "tags": ["cicd","jenkins","gitlab"]},
+      {"step": "Implement Containerization with Docker", "type": "Skill", "difficulty": "Intermediate", "tags": ["docker","containers"]},
+      {"step": "Manage Orchestration with Kubernetes", "type": "Skill", "difficulty": "Advanced", "tags": ["kubernetes","orchestration"]}
+    ],
+    "projects": [
+      {"step": "Automate App Deployment with Jenkins", "type": "Project", "difficulty": "Intermediate", "tags": ["automation","jenkins"]},
+      {"step": "Build a Zero-Downtime K8s Cluster", "type": "Project", "difficulty": "Advanced", "tags": ["kubernetes_cluster"]}
+    ],
+    "experience": [
+      {"step": "Apply for DevOps Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship","devops"]},
+      {"step": "Contribute to CNCF Open Source projects", "type": "Experience", "difficulty": "Advanced", "tags": ["cncf","open_source"]}
+    ],
+    "job_prep": [
+      {"step": "Master Linux Debugging Interviews", "type": "Preparation", "difficulty": "Advanced", "tags": ["linux_debugging"]},
+      {"step": "Practice Scripting for Automation", "type": "Preparation", "difficulty": "Advanced", "tags": ["automation_scripts"]}
+    ]
+  }
+},
+      {
+  "id": "CYBER_009",
+  "role_name": "Cybersecurity Engineer",
+  "career_domain": "cybersecurity",
+  "career_description": "Cybersecurity engineers protect systems and networks by identifying vulnerabilities, preventing attacks, and implementing security controls.",
+  "key_skills": ["network security","penetration testing","cryptography","security analysis"],
+  "tags": [
+"cybersecurity",
+"network security",
+"penetration testing",
+"ethical hacking",
+"information security",
+"security operations"
+],
+  "roadmap": {
+    "foundations": [
+      {"step": "Master Computer Networking basics", "type": "Concept", "difficulty": "Beginner", "tags": ["networking","security"]},
+      {"step": "Study Cryptography Fundamentals", "type": "Concept", "difficulty": "Beginner", "tags": ["cryptography"]},
+      {"step": "Learn Basic Python for Security", "type": "Skill", "difficulty": "Beginner", "tags": ["python","security_tools"]}
+    ],
+    "core_skills": [
+      {"step": "Execute Network Security Monitoring", "type": "Skill", "difficulty": "Intermediate", "tags": ["network_security"]},
+      {"step": "Perform Penetration Testing (Metasploit)", "type": "Skill", "difficulty": "Intermediate", "tags": ["penetration_testing"]},
+      {"step": "Manage Incident Response & Forensics", "type": "Skill", "difficulty": "Advanced", "tags": ["incident_response"]}
+    ],
+    "projects": [
+      {"step": "Build a Vulnerability Scanner", "type": "Project", "difficulty": "Intermediate", "tags": ["security_tool"]},
+      {"step": "Set up a Secure Home Lab Network", "type": "Project", "difficulty": "Intermediate", "tags": ["security_lab"]}
+    ],
+    "experience": [
+      {"step": "Apply for SOC Analyst Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["soc","internship"]},
+      {"step": "Participate in Bug Bounty Programs", "type": "Experience", "difficulty": "Advanced", "tags": ["bug_bounty"]}
+    ],
+    "job_prep": [
+      {"step": "Earn CompTIA Security+ or CEH", "type": "Preparation", "difficulty": "Intermediate", "tags": ["certification","security+"]},
+      {"step": "Practice CTF Challenges", "type": "Preparation", "difficulty": "Advanced", "tags": ["ctf","security"]}
+    ]
+  }
+},
+      {
+  "id": "BLOCK_010",
+  "role_name": "Blockchain Developer",
+  "career_domain": "blockchain",
+  "career_description": "Blockchain developers build decentralized applications and smart contracts on blockchain networks such as Ethereum and Solana.",
+  "key_skills": ["blockchain","web3","smart contracts","solidity","dapps"],
+  "tags": [
+"blockchain",
+"web3",
+"smart contracts",
+"solidity",
+"dapps",
+"cryptocurrency"
+],
+  "roadmap": {
+    "foundations": [
+      {"step": "Understand Decentralization concepts", "type": "Concept", "difficulty": "Beginner", "tags": ["blockchain","decentralization"]},
+      {"step": "Learn JavaScript or TypeScript for Web3", "type": "Skill", "difficulty": "Beginner", "tags": ["javascript","web3"]},
+      {"step": "Study Distributed Ledger Technology", "type": "Concept", "difficulty": "Beginner", "tags": ["dlt","blockchain"]}
+    ],
+    "core_skills": [
+      {"step": "Develop Smart Contracts (Solidity/Rust)", "type": "Skill", "difficulty": "Intermediate", "tags": ["solidity","smart_contracts"]},
+      {"step": "Integrate Web3.js or Ethers.js", "type": "Skill", "difficulty": "Intermediate", "tags": ["web3js","ethers"]},
+      {"step": "Design DApp Architecture", "type": "Skill", "difficulty": "Advanced", "tags": ["dapp_architecture"]}
+    ],
+    "projects": [
+      {"step": "Create a Decentralized Voting App", "type": "Project", "difficulty": "Intermediate", "tags": ["dapp","voting"]},
+      {"step": "Build an NFT Minting Website", "type": "Project", "difficulty": "Intermediate", "tags": ["nft","web3_project"]}
+    ],
+    "experience": [
+      {"step": "Apply for Blockchain Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship","blockchain"]},
+      {"step": "Contribute to Ethereum/Solana ecosystem", "type": "Experience", "difficulty": "Advanced", "tags": ["ethereum","solana"]}
+    ],
+    "job_prep": [
+      {"step": "Conduct Smart Contract Auditing", "type": "Preparation", "difficulty": "Advanced", "tags": ["smart_contract_audit"]},
+      {"step": "Practice Blockchain Protocol questions", "type": "Preparation", "difficulty": "Advanced", "tags": ["blockchain_protocol"]}
+    ]
+  }
+},
+      {
+  "id": "GAME_011",
+  "role_name": "Game Developer",
+  "career_domain": "game_development",
+  "career_description": "Game developers design and program video games using game engines, graphics programming, and interactive storytelling techniques.",
+  "key_skills": ["game design","programming","3d graphics","animation","level design", "unity"],
+  "tags": [
+"game development",
+"unity",
+"unreal engine",
+"game programming",
+"3d graphics",
+"game design"
+],
+  "roadmap": {
+    "foundations": [
+      {"step": "Master C# or C++ programming", "type": "Skill", "difficulty": "Beginner", "tags": ["csharp","cpp","game_dev"]},
+      {"step": "Study 3D Math & Physics for Games", "type": "Concept", "difficulty": "Beginner", "tags": ["game_math","physics"]},
+      {"step": "Understand Game Design Theory", "type": "Concept", "difficulty": "Beginner", "tags": ["game_design"]}
+    ],
+    "core_skills": [
+      {"step": "Master Unity or Unreal Engine", "type": "Skill", "difficulty": "Intermediate", "tags": ["unity","unreal"]},
+      {"step": "Implement Graphic Programming (Shaders)", "type": "Skill", "difficulty": "Advanced", "tags": ["shaders","graphics"]},
+      {"step": "Develop Game AI & Pathfinding", "type": "Skill", "difficulty": "Intermediate", "tags": ["game_ai","pathfinding"]}
+    ],
+    "projects": [
+      {"step": "Build a 2D Platformer Game", "type": "Project", "difficulty": "Beginner", "tags": ["2d_game"]},
+      {"step": "Develop a 3D First-Person Shooter", "type": "Project", "difficulty": "Advanced", "tags": ["fps_game"]}
+    ],
+    "experience": [
+      {"step": "Apply for Game Dev Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship","game_dev"]},
+      {"step": "Participate in Game Jams", "type": "Experience", "difficulty": "Intermediate", "tags": ["game_jam"]}
+    ],
+    "job_prep": [
+      {"step": "Create a Playable Game Demo", "type": "Preparation", "difficulty": "Intermediate", "tags": ["game_demo"]},
+      {"step": "Practice Optimization & Memory Management", "type": "Preparation", "difficulty": "Advanced", "tags": ["optimization"]}
+    ]
+  }
+},
+      {
+  "id": "UIUX_012",
+  "role_name": "UI/UX Designer",
+  "career_domain": "design",
+  "career_description": "UI/UX designers create intuitive and visually appealing digital interfaces by focusing on user experience, usability, and interaction design.",
+  "key_skills": ["ui design","ux research","wireframing","prototyping","figma"],
+  "tags": [
+"ui design",
+"ux design",
+"user experience",
+"user interface",
+"product design",
+"figma",
+"interaction design"
+],
+  "roadmap": {
+    "foundations": [
+      {"step": "Study Principles of Visual Design", "type": "Concept", "difficulty": "Beginner", "tags": ["visual_design"]},
+      {"step": "Understand Color Theory & Typography", "type": "Concept", "difficulty": "Beginner", "tags": ["color_theory","typography"]},
+      {"step": "Learn User Psychology basics", "type": "Concept", "difficulty": "Beginner", "tags": ["user_psychology"]}
+    ],
+    "core_skills": [
+      {"step": "Master Figma or Adobe XD", "type": "Skill", "difficulty": "Intermediate", "tags": ["figma","adobe_xd"]},
+      {"step": "Conduct User Research & Wireframing", "type": "Skill", "difficulty": "Intermediate", "tags": ["user_research","wireframing"]},
+      {"step": "Design Prototyping & Interaction", "type": "Skill", "difficulty": "Intermediate", "tags": ["prototyping","interaction_design"]}
+    ],
+    "projects": [
+      {"step": "Redesign a Popular Mobile App", "type": "Project", "difficulty": "Intermediate", "tags": ["mobile_design"]},
+      {"step": "Design an End-to-End SaaS Platform", "type": "Project", "difficulty": "Advanced", "tags": ["saas_design"]}
+    ],
+    "experience": [
+      {"step": "Apply for UI/UX Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship","uiux"]},
+      {"step": "Freelance Design for a Startup", "type": "Experience", "difficulty": "Intermediate", "tags": ["freelance_design"]}
+    ],
+    "job_prep": [
+      {"step": "Build a Behance or Dribbble Portfolio", "type": "Preparation", "difficulty": "Intermediate", "tags": ["portfolio"]},
+      {"step": "Practice UX Case Study Presentations", "type": "Preparation", "difficulty": "Advanced", "tags": ["case_study"]}
+    ]
+  }
+},
+     {
+  "id": "AIA_013",
+  "role_name": "AI Architect",
+  "career_domain": "artificial_intelligence",
+  "career_description": "AI architects design large-scale artificial intelligence systems and infrastructure, integrating machine learning models into enterprise solutions.",
+  "key_skills": ["ai architecture","ml systems","llm systems","distributed systems"],
+  "tags": [
+"ai architecture",
+"machine learning systems",
+"llm systems",
+"ai infrastructure",
+"mlops",
+"generative ai",
+"ai platform engineering"
+],
+  "roadmap": {
+    "foundations": [
+      {"step": "Master the AI Pipeline (Ingestion to Deployment)", "type": "Concept", "difficulty": "Beginner", "tags": ["ai_pipeline"]},
+      {"step": "Learn Python for Scalable AI", "type": "Skill", "difficulty": "Beginner", "tags": ["python","ai"]},
+      {"step": "Understand Distributed Systems basics", "type": "Concept", "difficulty": "Intermediate", "tags": ["distributed_systems"]}
+    ],
+    "core_skills": [
+      {"step": "Master Generative AI Architecture", "type": "Skill", "difficulty": "Intermediate", "tags": ["generative_ai"]},
+      {"step": "Implement LLM Operations (LLMOps)", "type": "Skill", "difficulty": "Intermediate", "tags": ["llmops"]},
+      {"step": "Design Model Monitoring & Scaling", "type": "Skill", "difficulty": "Advanced", "tags": ["model_monitoring"]}
+    ],
+    "projects": [
+      {"step": "Design Scalable Infrastructure for AI Chatbot", "type": "Project", "difficulty": "Advanced", "tags": ["ai_chatbot"]},
+      {"step": "Build a Multi-Model Inference API", "type": "Project", "difficulty": "Advanced", "tags": ["inference_api"]}
+    ],
+    "experience": [
+      {"step": "Apply for AI Architect Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship","ai"]},
+      {"step": "Contribute to MLOps Open Source Tools", "type": "Experience", "difficulty": "Advanced", "tags": ["mlops"]}
+    ],
+    "job_prep": [
+      {"step": "Study AI Ethics and Governance Frameworks", "type": "Preparation", "difficulty": "Advanced", "tags": ["ai_ethics"]},
+      {"step": "Practice AI System Design Interviews", "type": "Preparation", "difficulty": "Advanced", "tags": ["ai_system_design"]}
+    ]
+  }
+},
+     {
+"id": "EMB_014",
+"role_name": "Embedded Systems Engineer",
+"career_domain": "hardware_engineering",
+"career_description": "Embedded systems engineers develop software and firmware that run on hardware devices such as microcontrollers, IoT systems, and electronics.",
+"key_skills": ["embedded c","microcontrollers","firmware","hardware integration"],
+"tags": [
+"embedded systems",
+"firmware",
+"microcontrollers",
+"iot",
+"hardware programming",
+"low level programming",
+"electronics"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn C Programming", "type": "Skill", "difficulty": "Beginner", "tags": ["c","programming"]},
+{"step": "Understand Data Structures", "type": "Concept", "difficulty": "Beginner", "tags": ["data_structures"]},
+{"step": "Study Digital Electronics", "type": "Concept", "difficulty": "Beginner", "tags": ["digital_electronics"]},
+{"step": "Learn Computer Organization", "type": "Concept", "difficulty": "Beginner", "tags": ["computer_architecture"]}
+],
+
+"core_skills": [
+{"step": "Program Microcontrollers using Embedded C", "type": "Skill", "difficulty": "Intermediate", "tags": ["embedded_c","microcontrollers"]},
+{"step": "Work with RTOS systems", "type": "Skill", "difficulty": "Intermediate", "tags": ["rtos"]},
+{"step": "Perform Hardware–Software Integration", "type": "Skill", "difficulty": "Intermediate", "tags": ["hardware_integration"]}
+],
+
+"projects": [
+{"step": "Build a Smart Home Automation System using Arduino", "type": "Project", "difficulty": "Intermediate", "tags": ["arduino","iot"]},
+{"step": "Create an IoT Sensor Monitoring System", "type": "Project", "difficulty": "Intermediate", "tags": ["iot","sensors"]},
+{"step": "Develop an Embedded Motor Controller", "type": "Project", "difficulty": "Advanced", "tags": ["motor_control"]},
+{"step": "Build a Weather Station using Microcontrollers", "type": "Project", "difficulty": "Intermediate", "tags": ["embedded_project"]}
+],
+
+"experience": [
+{"step": "Apply for Embedded Systems Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship","embedded"]},
+{"step": "Work on open-source IoT firmware projects", "type": "Experience", "difficulty": "Intermediate", "tags": ["open_source","iot"]}
+],
+
+"job_prep": [
+{"step": "Practice Embedded C interview questions", "type": "Preparation", "difficulty": "Advanced", "tags": ["embedded_interviews"]},
+{"step": "Study firmware debugging techniques", "type": "Preparation", "difficulty": "Advanced", "tags": ["debugging"]}
+]
+}
+},
+      {
+"id": "ELEC_015",
+"role_name": "Electronics Engineer",
+"career_description": "Electronics engineers design, analyze, and build electronic circuits and hardware systems used in devices and communication technologies.",
+"key_skills": ["circuit design","analog electronics","pcb design","signal processing"],
+"career_domain": "hardware_engineering",
+"tags": [
+"electronics",
+"circuit design",
+"analog electronics",
+"digital electronics",
+"pcb design",
+"hardware engineering"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn Basic Electronics", "type": "Concept", "difficulty": "Beginner", "tags": ["electronics"]},
+{"step": "Study Circuit Theory", "type": "Concept", "difficulty": "Beginner", "tags": ["circuits"]},
+{"step": "Understand Signals and Systems", "type": "Concept", "difficulty": "Beginner", "tags": ["signals"]},
+{"step": "Study Analog Electronics", "type": "Concept", "difficulty": "Beginner", "tags": ["analog_electronics"]}
+],
+
+"core_skills": [
+{"step": "Design PCBs using KiCad or Altium", "type": "Skill", "difficulty": "Intermediate", "tags": ["pcb_design"]},
+{"step": "Simulate Circuits using LTSpice or Multisim", "type": "Skill", "difficulty": "Intermediate", "tags": ["circuit_simulation"]},
+{"step": "Work with Digital Logic Systems", "type": "Skill", "difficulty": "Intermediate", "tags": ["digital_logic"]}
+],
+
+"projects": [
+{"step": "Design an Analog Amplifier Circuit", "type": "Project", "difficulty": "Intermediate", "tags": ["amplifier"]},
+{"step": "Build a Custom PCB Board", "type": "Project", "difficulty": "Intermediate", "tags": ["pcb"]},
+{"step": "Create a Digital Logic Circuit System", "type": "Project", "difficulty": "Intermediate", "tags": ["digital_circuits"]}
+],
+
+"experience": [
+{"step": "Apply for Hardware Engineering Internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship"]},
+{"step": "Work in electronics prototyping labs", "type": "Experience", "difficulty": "Intermediate", "tags": ["hardware_lab"]}
+],
+
+"job_prep": [
+{"step": "Prepare for circuit design interviews", "type": "Preparation", "difficulty": "Advanced", "tags": ["electronics_interview"]},
+{"step": "Practice signal analysis problems", "type": "Preparation", "difficulty": "Advanced", "tags": ["signal_processing"]}
+]
+}
+},
+      {
+"id": "PROMPT_014",
+"role_name": "Prompt Engineer",
+"career_domain": "artificial_intelligence",
+"career_description": "Prompt engineers design and optimize prompts that guide large language models to generate accurate, relevant, and useful outputs.",
+"key_skills": ["prompt design","llm optimization","nlp","ai prompting"],
+"tags": [
+"prompt engineering",
+"llm",
+"generative ai",
+"ai prompting",
+"nlp",
+"large language models"
+],
+"roadmap": {
+"foundations": [
+{"step": "Understand Natural Language Processing fundamentals", "type": "Concept", "difficulty": "Beginner", "tags": ["nlp","language_models"]},
+{"step": "Learn how Large Language Models work", "type": "Concept", "difficulty": "Beginner", "tags": ["llm","transformers"]},
+{"step": "Understand tokenization and context windows", "type": "Concept", "difficulty": "Beginner", "tags": ["tokenization","context_window"]}
+],
+
+"core_skills": [
+{"step": "Design effective prompts for LLMs", "type": "Skill", "difficulty": "Intermediate", "tags": ["prompt_design"]},
+{"step": "Apply zero-shot and few-shot prompting", "type": "Skill", "difficulty": "Intermediate", "tags": ["zero_shot","few_shot"]},
+{"step": "Use chain-of-thought reasoning techniques", "type": "Skill", "difficulty": "Intermediate", "tags": ["chain_of_thought"]},
+{"step": "Optimize prompts using temperature and sampling parameters", "type": "Skill", "difficulty": "Intermediate", "tags": ["llm_parameters"]}
+],
+
+"projects": [
+{"step": "Build a prompt library for coding assistants", "type": "Project", "difficulty": "Intermediate", "tags": ["prompt_library"]},
+{"step": "Develop an AI chatbot using optimized prompts", "type": "Project", "difficulty": "Intermediate", "tags": ["ai_chatbot"]},
+{"step": "Create an automated content generation pipeline", "type": "Project", "difficulty": "Advanced", "tags": ["content_generation"]}
+],
+
+"experience": [
+{"step": "Apply for AI or LLM engineering internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship","ai"]},
+{"step": "Contribute to open-source LLM applications", "type": "Experience", "difficulty": "Intermediate", "tags": ["open_source","llm"]},
+{"step": "Work on real-world prompt optimization projects", "type": "Experience", "difficulty": "Intermediate", "tags": ["prompt_projects"]}
+],
+
+"job_prep": [
+{"step": "Build a portfolio of prompt engineering case studies", "type": "Preparation", "difficulty": "Intermediate", "tags": ["portfolio"]},
+{"step": "Practice prompt debugging and evaluation techniques", "type": "Preparation", "difficulty": "Advanced", "tags": ["prompt_testing"]},
+{"step": "Study LLM application architectures like RAG", "type": "Preparation", "difficulty": "Advanced", "tags": ["rag","ai_architecture"]}
+]
+}
+},
+{
+"id": "AI_016",
+"role_name": "AI Engineer",
+"career_domain": "artificial_intelligence",
+"career_description": "AI engineers build intelligent systems by integrating machine learning models, deep learning techniques, and data pipelines into real-world applications.",
+"key_skills": ["python","deep learning","machine learning","model deployment"],
+"tags": [
+"artificial intelligence",
+"machine learning",
+"deep learning",
+"ai systems",
+"python",
+"neural networks"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn Python programming", "type": "Skill", "difficulty": "Beginner", "tags": ["python"]},
+{"step": "Study Linear Algebra and Probability", "type": "Concept", "difficulty": "Beginner", "tags": ["mathematics"]},
+{"step": "Understand Machine Learning fundamentals", "type": "Concept", "difficulty": "Beginner", "tags": ["machine_learning"]}
+],
+"core_skills": [
+{"step": "Build ML models using Scikit-Learn", "type": "Skill", "difficulty": "Intermediate", "tags": ["ml_models"]},
+{"step": "Develop deep learning models with PyTorch or TensorFlow", "type": "Skill", "difficulty": "Intermediate", "tags": ["deep_learning"]},
+{"step": "Deploy AI models as APIs", "type": "Skill", "difficulty": "Intermediate", "tags": ["model_deployment"]}
+],
+"projects": [
+{"step": "Build an AI-powered recommendation system", "type": "Project", "difficulty": "Intermediate", "tags": ["recommendation_system"]},
+{"step": "Develop an intelligent chatbot", "type": "Project", "difficulty": "Intermediate", "tags": ["chatbot"]},
+{"step": "Create an AI-based image classifier", "type": "Project", "difficulty": "Intermediate", "tags": ["computer_vision"]}
+],
+"experience": [
+{"step": "Apply for AI engineering internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship"]},
+{"step": "Participate in AI hackathons", "type": "Experience", "difficulty": "Intermediate", "tags": ["hackathon"]}
+],
+"job_prep": [
+{"step": "Practice ML system design interviews", "type": "Preparation", "difficulty": "Advanced", "tags": ["ml_system_design"]},
+{"step": "Build a portfolio of AI projects", "type": "Preparation", "difficulty": "Intermediate", "tags": ["portfolio"]}
+]
+}
+},
+{
+"id": "LLM_017",
+"role_name": "LLM Engineer",
+"career_domain": "artificial_intelligence",
+"career_description": "LLM engineers develop applications powered by large language models, including chatbots, retrieval systems, and AI-powered tools.",
+"key_skills": ["llm development","rag","langchain","ai applications"],
+"tags": [
+"large language models",
+"generative ai",
+"llm",
+"rag",
+"ai applications"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn Python programming", "type": "Skill", "difficulty": "Beginner", "tags": ["python"]},
+{"step": "Understand Natural Language Processing basics", "type": "Concept", "difficulty": "Beginner", "tags": ["nlp"]},
+{"step": "Study how transformer models work", "type": "Concept", "difficulty": "Beginner", "tags": ["transformers"]}
+],
+"core_skills": [
+{"step": "Build LLM applications using LangChain", "type": "Skill", "difficulty": "Intermediate", "tags": ["langchain"]},
+{"step": "Implement Retrieval Augmented Generation (RAG)", "type": "Skill", "difficulty": "Intermediate", "tags": ["rag"]},
+{"step": "Deploy LLM APIs with FastAPI", "type": "Skill", "difficulty": "Intermediate", "tags": ["fastapi"]}
+],
+"projects": [
+{"step": "Build an AI career recommendation chatbot", "type": "Project", "difficulty": "Intermediate", "tags": ["chatbot"]},
+{"step": "Develop a document question answering system", "type": "Project", "difficulty": "Intermediate", "tags": ["qa_system"]}
+],
+"experience": [
+{"step": "Contribute to open-source AI tools", "type": "Experience", "difficulty": "Intermediate", "tags": ["open_source"]},
+{"step": "Work on production LLM applications", "type": "Experience", "difficulty": "Intermediate", "tags": ["ai_projects"]}
+],
+"job_prep": [
+{"step": "Study LLM architecture and scaling", "type": "Preparation", "difficulty": "Advanced", "tags": ["llm_architecture"]},
+{"step": "Practice AI system design interviews", "type": "Preparation", "difficulty": "Advanced", "tags": ["ai_interviews"]}
+]
+}
+},
+{
+"id": "MOB_018",
+"role_name": "Mobile App Developer",
+"career_domain": "software_engineering",
+"career_description": "Mobile app developers design and build applications for mobile platforms such as Android and iOS using native or cross-platform technologies.",
+"key_skills": ["mobile development","android","ios","flutter","react native"],
+"tags": [
+"mobile development",
+"android",
+"ios",
+"flutter",
+"react native"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn Java or Kotlin programming", "type": "Skill", "difficulty": "Beginner", "tags": ["kotlin","java"]},
+{"step": "Understand mobile app architecture", "type": "Concept", "difficulty": "Beginner", "tags": ["mobile_architecture"]},
+{"step": "Learn UI design principles", "type": "Concept", "difficulty": "Beginner", "tags": ["ui_design"]}
+],
+"core_skills": [
+{"step": "Build Android apps using Android Studio", "type": "Skill", "difficulty": "Intermediate", "tags": ["android"]},
+{"step": "Develop cross-platform apps with Flutter", "type": "Skill", "difficulty": "Intermediate", "tags": ["flutter"]},
+{"step": "Integrate APIs and databases", "type": "Skill", "difficulty": "Intermediate", "tags": ["mobile_backend"]}
+],
+"projects": [
+{"step": "Create a mobile task management app", "type": "Project", "difficulty": "Intermediate", "tags": ["mobile_app"]},
+{"step": "Develop a social media mobile application", "type": "Project", "difficulty": "Advanced", "tags": ["mobile_project"]}
+],
+"experience": [
+{"step": "Apply for mobile development internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship"]},
+{"step": "Publish an app on the Play Store", "type": "Experience", "difficulty": "Intermediate", "tags": ["app_store"]}
+],
+"job_prep": [
+{"step": "Build a mobile development portfolio", "type": "Preparation", "difficulty": "Intermediate", "tags": ["portfolio"]},
+{"step": "Practice mobile coding interviews", "type": "Preparation", "difficulty": "Advanced", "tags": ["coding_interview"]}
+]
+}
+},
+{
+"id": "SRE_019",
+"role_name": "Site Reliability Engineer",
+"career_domain": "cloud_devops",
+"career_description": "Site reliability engineers ensure large-scale systems remain reliable, scalable, and efficient by combining software engineering with infrastructure management.",
+"key_skills": ["linux","infrastructure monitoring","kubernetes","system reliability"],
+"tags": [
+"site reliability",
+"devops",
+"infrastructure",
+"monitoring",
+"scalable systems"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn Linux system administration", "type": "Skill", "difficulty": "Beginner", "tags": ["linux"]},
+{"step": "Understand networking fundamentals", "type": "Concept", "difficulty": "Beginner", "tags": ["networking"]},
+{"step": "Learn Python or Go scripting", "type": "Skill", "difficulty": "Beginner", "tags": ["automation"]}
+],
+"core_skills": [
+{"step": "Implement infrastructure monitoring systems", "type": "Skill", "difficulty": "Intermediate", "tags": ["monitoring"]},
+{"step": "Automate deployments using CI/CD pipelines", "type": "Skill", "difficulty": "Intermediate", "tags": ["cicd"]},
+{"step": "Manage containerized applications with Kubernetes", "type": "Skill", "difficulty": "Advanced", "tags": ["kubernetes"]}
+],
+"projects": [
+{"step": "Deploy a highly available cloud service", "type": "Project", "difficulty": "Advanced", "tags": ["cloud_project"]},
+{"step": "Build an automated monitoring dashboard", "type": "Project", "difficulty": "Intermediate", "tags": ["monitoring_system"]}
+],
+"experience": [
+{"step": "Apply for SRE internships", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship"]},
+{"step": "Manage infrastructure for open-source projects", "type": "Experience", "difficulty": "Intermediate", "tags": ["infrastructure"]}
+],
+"job_prep": [
+{"step": "Study distributed systems", "type": "Preparation", "difficulty": "Advanced", "tags": ["distributed_systems"]},
+{"step": "Practice troubleshooting system failures", "type": "Preparation", "difficulty": "Advanced", "tags": ["debugging"]}
+]
+}
+},
+{
+"id": "PM_020",
+"role_name": "Product Manager",
+"career_domain": "product_management",
+"career_description": "Product managers define product vision, prioritize features, and coordinate teams to deliver successful technology products.",
+"key_skills": ["product strategy","market research","stakeholder management","analytics"],
+"tags": [
+"product management",
+"product strategy",
+"business analysis",
+"stakeholder management",
+"agile",
+"product development"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn fundamentals of product management", "type": "Concept", "difficulty": "Beginner", "tags": ["product_management"]},
+{"step": "Understand Agile and Scrum methodologies", "type": "Concept", "difficulty": "Beginner", "tags": ["agile","scrum"]},
+{"step": "Study user research and market analysis", "type": "Concept", "difficulty": "Beginner", "tags": ["market_research"]}
+],
+"core_skills": [
+{"step": "Define product roadmaps and strategy", "type": "Skill", "difficulty": "Intermediate", "tags": ["product_strategy"]},
+{"step": "Work with engineering and design teams", "type": "Skill", "difficulty": "Intermediate", "tags": ["cross_functional"]},
+{"step": "Use analytics to guide product decisions", "type": "Skill", "difficulty": "Intermediate", "tags": ["product_analytics"]}
+],
+"projects": [
+{"step": "Create a product roadmap for a startup idea", "type": "Project", "difficulty": "Intermediate", "tags": ["roadmap"]},
+{"step": "Conduct user interviews and feature prioritization", "type": "Project", "difficulty": "Intermediate", "tags": ["user_research"]}
+],
+"experience": [
+{"step": "Work as a product intern or associate PM", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship"]},
+{"step": "Collaborate with engineering teams on real products", "type": "Experience", "difficulty": "Intermediate", "tags": ["product_team"]}
+],
+"job_prep": [
+{"step": "Prepare product case studies", "type": "Preparation", "difficulty": "Advanced", "tags": ["case_study"]},
+{"step": "Practice product sense interviews", "type": "Preparation", "difficulty": "Advanced", "tags": ["pm_interviews"]}
+]
+}
+},
+{
+"id": "TPM_021",
+"role_name": "Technical Product Manager",
+"career_domain": "product_management",
+"career_description": "Technical product managers combine technical knowledge with product strategy to guide the development of complex technology products.",
+"key_skills": ["technical strategy","product management","system understanding"],
+"tags": [
+"technical product management",
+"software products",
+"system architecture",
+"product strategy",
+"technology leadership"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn basics of software engineering", "type": "Concept", "difficulty": "Beginner", "tags": ["software_basics"]},
+{"step": "Understand product lifecycle management", "type": "Concept", "difficulty": "Beginner", "tags": ["product_lifecycle"]},
+{"step": "Study Agile development processes", "type": "Concept", "difficulty": "Beginner", "tags": ["agile"]}
+],
+"core_skills": [
+{"step": "Translate technical requirements into product features", "type": "Skill", "difficulty": "Intermediate", "tags": ["requirements"]},
+{"step": "Work closely with engineering teams", "type": "Skill", "difficulty": "Intermediate", "tags": ["engineering_collaboration"]},
+{"step": "Manage product releases and roadmaps", "type": "Skill", "difficulty": "Intermediate", "tags": ["product_release"]}
+],
+"projects": [
+{"step": "Design a roadmap for an AI-powered application", "type": "Project", "difficulty": "Intermediate", "tags": ["product_design"]},
+{"step": "Develop feature specifications for a SaaS product", "type": "Project", "difficulty": "Intermediate", "tags": ["saas"]}
+],
+"experience": [
+{"step": "Work as associate technical product manager", "type": "Experience", "difficulty": "Intermediate", "tags": ["tpm_internship"]},
+{"step": "Coordinate engineering and business teams", "type": "Experience", "difficulty": "Intermediate", "tags": ["team_management"]}
+],
+"job_prep": [
+{"step": "Prepare technical product case studies", "type": "Preparation", "difficulty": "Advanced", "tags": ["pm_case_study"]},
+{"step": "Practice system design discussions", "type": "Preparation", "difficulty": "Advanced", "tags": ["system_design"]}
+]
+}
+},
+{
+"id": "BA_022",
+"role_name": "Business Analyst",
+"career_domain": "business_analytics",
+"career_description": "Business analysts analyze business processes and data to identify improvements and support strategic decision making.",
+"key_skills": ["data analysis","business intelligence","sql","requirements gathering"],
+"tags": [
+"business analysis",
+"data analysis",
+"requirements gathering",
+"process improvement",
+"analytics"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn business process fundamentals", "type": "Concept", "difficulty": "Beginner", "tags": ["business_process"]},
+{"step": "Study data analysis basics", "type": "Concept", "difficulty": "Beginner", "tags": ["data_analysis"]},
+{"step": "Understand SQL fundamentals", "type": "Skill", "difficulty": "Beginner", "tags": ["sql"]}
+],
+"core_skills": [
+{"step": "Gather and document business requirements", "type": "Skill", "difficulty": "Intermediate", "tags": ["requirements"]},
+{"step": "Perform data analysis and reporting", "type": "Skill", "difficulty": "Intermediate", "tags": ["reporting"]},
+{"step": "Use tools like Excel or Power BI", "type": "Skill", "difficulty": "Intermediate", "tags": ["powerbi","excel"]}
+],
+"projects": [
+{"step": "Analyze sales data for insights", "type": "Project", "difficulty": "Intermediate", "tags": ["data_project"]},
+{"step": "Create dashboards for business metrics", "type": "Project", "difficulty": "Intermediate", "tags": ["dashboard"]}
+],
+"experience": [
+{"step": "Work as business analyst intern", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship"]},
+{"step": "Assist teams with business reports", "type": "Experience", "difficulty": "Intermediate", "tags": ["analysis"]}
+],
+"job_prep": [
+{"step": "Prepare case study analysis", "type": "Preparation", "difficulty": "Advanced", "tags": ["case_study"]},
+{"step": "Practice business analytics interviews", "type": "Preparation", "difficulty": "Advanced", "tags": ["interview"]}
+]
+}
+},
+{
+"id": "DM_023",
+"role_name": "Digital Marketing Specialist",
+"career_domain": "digital_marketing",
+"career_description": "Digital marketing specialists promote products and services online through SEO, advertising campaigns, and social media strategies.",
+"key_skills": ["seo","social media marketing","online advertising","marketing analytics"],
+"tags": [
+"digital marketing",
+"seo",
+"social media marketing",
+"online advertising",
+"content marketing"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn fundamentals of marketing", "type": "Concept", "difficulty": "Beginner", "tags": ["marketing"]},
+{"step": "Understand SEO basics", "type": "Concept", "difficulty": "Beginner", "tags": ["seo"]},
+{"step": "Study social media platforms", "type": "Concept", "difficulty": "Beginner", "tags": ["social_media"]}
+],
+"core_skills": [
+{"step": "Run Google Ads campaigns", "type": "Skill", "difficulty": "Intermediate", "tags": ["google_ads"]},
+{"step": "Perform SEO optimization", "type": "Skill", "difficulty": "Intermediate", "tags": ["seo"]},
+{"step": "Analyze marketing performance metrics", "type": "Skill", "difficulty": "Intermediate", "tags": ["analytics"]}
+],
+"projects": [
+{"step": "Create a digital marketing campaign", "type": "Project", "difficulty": "Intermediate", "tags": ["marketing_campaign"]},
+{"step": "Optimize website SEO strategy", "type": "Project", "difficulty": "Intermediate", "tags": ["seo_project"]}
+],
+"experience": [
+{"step": "Work with startups for marketing campaigns", "type": "Experience", "difficulty": "Intermediate", "tags": ["marketing_project"]},
+{"step": "Manage social media accounts", "type": "Experience", "difficulty": "Intermediate", "tags": ["social_media"]}
+],
+"job_prep": [
+{"step": "Build a digital marketing portfolio", "type": "Preparation", "difficulty": "Intermediate", "tags": ["portfolio"]},
+{"step": "Earn Google Digital Marketing certifications", "type": "Preparation", "difficulty": "Advanced", "tags": ["certification"]}
+]
+}
+},
+{
+"id": "TW_024",
+"role_name": "Technical Writer",
+"career_domain": "content_technology",
+"career_description": "Technical writers create clear documentation, guides, and manuals that explain complex technologies and software systems.",
+"key_skills": ["technical writing","documentation","communication","software knowledge"],
+"tags": [
+"technical writing",
+"documentation",
+"software documentation",
+"api documentation",
+"content creation"
+],
+"roadmap": {
+"foundations": [
+{"step": "Develop strong writing skills", "type": "Skill", "difficulty": "Beginner", "tags": ["writing"]},
+{"step": "Learn basics of software development", "type": "Concept", "difficulty": "Beginner", "tags": ["software_basics"]},
+{"step": "Understand documentation standards", "type": "Concept", "difficulty": "Beginner", "tags": ["documentation"]}
+],
+"core_skills": [
+{"step": "Write clear API documentation", "type": "Skill", "difficulty": "Intermediate", "tags": ["api_docs"]},
+{"step": "Use tools like Markdown or Docs platforms", "type": "Skill", "difficulty": "Intermediate", "tags": ["markdown"]},
+{"step": "Explain complex technical concepts clearly", "type": "Skill", "difficulty": "Intermediate", "tags": ["communication"]}
+],
+"projects": [
+{"step": "Document an open-source project", "type": "Project", "difficulty": "Intermediate", "tags": ["open_source_docs"]},
+{"step": "Write a developer guide for an API", "type": "Project", "difficulty": "Intermediate", "tags": ["documentation"]}
+],
+"experience": [
+{"step": "Work as documentation intern", "type": "Experience", "difficulty": "Intermediate", "tags": ["internship"]},
+{"step": "Contribute to open-source documentation", "type": "Experience", "difficulty": "Intermediate", "tags": ["open_source"]}
+],
+"job_prep": [
+{"step": "Build a documentation portfolio", "type": "Preparation", "difficulty": "Intermediate", "tags": ["portfolio"]},
+{"step": "Practice technical writing tests", "type": "Preparation", "difficulty": "Advanced", "tags": ["writing_test"]}
+]
+}
+},
+{
+"id": "ENT_025",
+"role_name": "Startup Founder",
+"career_domain": "entrepreneurship",
+"career_description": "Startup founders create and lead new businesses by developing innovative products, securing funding, and building teams.",
+"key_skills": ["entrepreneurship","business strategy","leadership","innovation"],
+"tags": [
+"entrepreneurship",
+"startup",
+"innovation",
+"business strategy",
+"venture building"
+],
+"roadmap": {
+"foundations": [
+{"step": "Learn fundamentals of entrepreneurship", "type": "Concept", "difficulty": "Beginner", "tags": ["entrepreneurship"]},
+{"step": "Study business models and startups", "type": "Concept", "difficulty": "Beginner", "tags": ["business_model"]},
+{"step": "Understand product-market fit", "type": "Concept", "difficulty": "Beginner", "tags": ["startup"]}
+],
+"core_skills": [
+{"step": "Develop startup ideas and prototypes", "type": "Skill", "difficulty": "Intermediate", "tags": ["startup_idea"]},
+{"step": "Learn fundraising and pitching", "type": "Skill", "difficulty": "Intermediate", "tags": ["fundraising"]},
+{"step": "Build and manage startup teams", "type": "Skill", "difficulty": "Intermediate", "tags": ["team_building"]}
+],
+"projects": [
+{"step": "Launch a startup prototype", "type": "Project", "difficulty": "Intermediate", "tags": ["startup_project"]},
+{"step": "Participate in startup incubators", "type": "Project", "difficulty": "Intermediate", "tags": ["incubator"]}
+],
+"experience": [
+{"step": "Work in early-stage startups", "type": "Experience", "difficulty": "Intermediate", "tags": ["startup_experience"]},
+{"step": "Participate in entrepreneurship competitions", "type": "Experience", "difficulty": "Intermediate", "tags": ["startup_competition"]}
+],
+"job_prep": [
+{"step": "Prepare startup pitch decks", "type": "Preparation", "difficulty": "Advanced", "tags": ["pitch_deck"]},
+{"step": "Learn venture capital ecosystem", "type": "Preparation", "difficulty": "Advanced", "tags": ["venture_capital"]}
+]
+}
+}
+]
+  }
+}

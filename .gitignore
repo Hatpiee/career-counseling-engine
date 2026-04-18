@@ -15,3 +15,8 @@ venv/
 
 # OS files
 .DS_Store
+
+# Vector DB / generated storage
+chroma_db/
+database/chroma_db/
+vector_db/
