@@ -1,22 +1,13 @@
-# Python cache
+.venv/
 __pycache__/
+.env
+
 *.pyc
 *.pyo
 
-# Virtual environments
-venv/
-.venv/
-
-# Environment variables
-.env
-
-# VS Code
-.vscode/
-
-# OS files
-.DS_Store
-
-# Vector DB / generated storage
+*.sqlite3
 chroma_db/
-database/chroma_db/
 vector_db/
+
+.vscode/
+.DS_Store
