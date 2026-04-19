@@ -1,7 +1,8 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from pydantic import BaseModel
-
+print("Loading profile extractor...")
 from services.profile_extractor import extract_profile
+print("Loading career matcher...")
 from services.career_matcher import get_top_careers, load_careers, build_career_context
 
 from langchain_groq import ChatGroq
@@ -12,6 +13,13 @@ import json
 import tempfile
 import assemblyai as aai
 from dotenv import load_dotenv
+print("🔥 STEP 1: main_rag loaded")
+
+from fastapi import FastAPI
+print("🔥 STEP 2: FastAPI imported")
+
+app = FastAPI()
+print("🔥 STEP 3: app created")
 
 load_dotenv()
 
