@@ -5,18 +5,19 @@ import time
 import os
 import sys
 
-# ================= PATH SETUP =================
+# ================= CONFIG =================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-BACKEND_URL = "http://127.0.0.1:8000"
-BASE_URL = "http://127.0.0.1:8000"
+BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
+
 
 # ================= BACKEND START FUNCTION =================
 def start_backend():
     try:
         requests.get(f"{BACKEND_URL}/docs", timeout=2)
+        print("Backend already running")
         return None
     except:
-        pass
+        print("Starting backend...")
 
     process = subprocess.Popen(
         [
@@ -30,19 +31,24 @@ def start_backend():
         stderr=subprocess.DEVNULL
     )
 
-    for _ in range(25):
+    # wait until backend is ready
+    for _ in range(30):
         try:
             requests.get(f"{BACKEND_URL}/docs", timeout=2)
+            print("Backend started successfully")
             return process
         except:
             time.sleep(1)
 
+    st.error("Backend failed to start")
     return process
 
 
-# ================= START BACKEND =================
-if "backend_process" not in st.session_state:
+# ================= START BACKEND ONLY ONCE =================
+if "backend_started" not in st.session_state:
     st.session_state.backend_process = start_backend()
+    st.session_state.backend_started = True
+
 
 # ================= SESSION =================
 if "page" not in st.session_state:
@@ -95,9 +101,17 @@ def show_college():
 
         with st.spinner("Analyzing..."):
             try:
-                res = requests.post(f"{BASE_URL}/predict-college", json=payload)
-                data = res.json()
+                res = requests.post(
+                    f"{BACKEND_URL}/predict-college",
+                    json=payload,
+                    timeout=60
+                )
 
+                if res.status_code != 200:
+                    st.error(f"Backend error: {res.text}")
+                    return
+
+                data = res.json()
                 colleges = data.get("predicted_colleges", [])
 
                 dream, target, safe = [], [], []
@@ -119,39 +133,34 @@ def show_college():
                         return
 
                     for i, c in enumerate(items, 1):
+                        st.markdown(f"""
+                        <div style="
+                        padding:18px;
+                        border-radius:14px;
+                        background: linear-gradient(145deg, #1e1e1e, #262626);
+                        margin-bottom:12px;
+                        box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+                        ">
+                        <h4>#{i} {c.get('college_name','')}</h4>
 
-                        st.markdown(f"""<div style="
-padding:18px;
-border-radius:14px;
-background: linear-gradient(145deg, #1e1e1e, #262626);
-margin-bottom:12px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.4);
-">
-<h4 style="margin-bottom:8px;">
-#{i} {c.get('college_name','')}
-</h4>
+                        <div style="color:#bbbbbb;">
+                        Tier: {c.get('tier','')} |
+                        Exam: {c.get('exam','')} <br>
+                        State: {c.get('state','')}
+                        </div>
 
-<div style="color:#bbbbbb; font-size:14px;">
-<b>Tier:</b> {c.get('tier','')} |
-<b>Exam:</b> {c.get('exam','')} <br>
-<b>State:</b> {c.get('state','')}
-</div>
-
-<div style="
-color:{color};
-font-weight:bold;
-margin-top:8px;
-">
-{c.get('your_rank_fit','')}
-</div>
-</div>""", unsafe_allow_html=True)
+                        <div style="color:{color}; font-weight:bold;">
+                        {c.get('your_rank_fit','')}
+                        </div>
+                        </div>
+                        """, unsafe_allow_html=True)
 
                 show_section("🔴 Dream Colleges", dream, "#ff4b4b")
                 show_section("🟡 Target Colleges", target, "#ffd700")
                 show_section("🟢 Safe Colleges", safe, "#00ff9f")
 
             except Exception as e:
-                st.error(str(e))
+                st.error(f"Connection failed: {e}")
 
 
 # ================= CAREER =================
@@ -174,76 +183,58 @@ def show_career():
             st.error("Enter something")
             return
 
-        with st.spinner("Analyzing your profile..."):
+        with st.spinner("Analyzing..."):
             try:
                 res = requests.post(
-                    f"{BASE_URL}/chat",
-                    json={"message": user_input.strip()}
+                    f"{BACKEND_URL}/chat",
+                    json={"message": user_input.strip()},
+                    timeout=120
                 )
+
+                if res.status_code != 200:
+                    st.error(f"Backend error: {res.text}")
+                    return
 
                 data = res.json()
 
-                if "career_recommendations" in data:
+                if "career_recommendations" not in data:
+                    st.error("Unexpected response")
+                    return
 
-                    for r in data["career_recommendations"]:
+                for r in data["career_recommendations"]:
+                    score = int(round(r.get('match_score', 0) * 100))
 
-                        score = int(round(r.get('match_score', 0) * 100))
+                    st.markdown(f"""
+                    <div style="
+                        padding:20px;
+                        border-radius:14px;
+                        background: linear-gradient(145deg, #1e1e1e, #262626);
+                        margin-bottom:10px;
+                        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+                    ">
+                        <h2>{r.get('career','')}</h2>
+                        <p>{r.get('why_it_fits','')}</p>
+                    </div>
+                    """, unsafe_allow_html=True)
 
-                        with st.container():
+                    st.progress(score / 100)
 
-                            # ===== MODERN CARD =====
-                            st.markdown(f"""
-                            <div style="
-                                padding:20px;
-                                border-radius:14px;
-                                background: linear-gradient(145deg, #1e1e1e, #262626);
-                                margin-bottom:10px;
-                                box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-                            ">
-                                <h2 style="margin-bottom:5px;">
-                                    {r.get('career','')}
-                                </h2>
-                                <p style="margin-top:6px; color:#cfcfcf;">
-                                    {r.get('why_it_fits','')}
-                                </p>
-                            </div>
-                            """, unsafe_allow_html=True)
+                    col1, col2 = st.columns(2)
 
-                            # ===== MATCH SCORE =====
-                            st.markdown("**Match Score**")
-                            st.progress(score / 100)
+                    with col1:
+                        st.markdown("### 🛠 Skills")
+                        for s in r.get("skills_required", []):
+                            st.markdown(f"- {s}")
 
-                            skills = r.get("skills_required", [])
-                            roadmap = r.get("roadmap", [])
+                    with col2:
+                        st.markdown("### 🧭 Roadmap")
+                        for step in r.get("roadmap", []):
+                            st.markdown(f"- {step}")
 
-                            # ===== TWO COLUMN LAYOUT =====
-                            col1, col2 = st.columns(2)
-
-                            # ===== SKILLS =====
-                            with col1:
-                                st.markdown("### 🛠 Skills")
-                                if isinstance(skills, list):
-                                    for s in skills:
-                                        st.markdown(f"- {s}")
-                                else:
-                                    st.markdown(f"- {skills}")
-
-                            # ===== ROADMAP =====
-                            with col2:
-                                st.markdown("### 🧭 Roadmap")
-                                if isinstance(roadmap, list):
-                                    for step in roadmap:
-                                        st.markdown(f"- {step}")
-                                else:
-                                    st.markdown(f"- {roadmap}")
-
-                            st.markdown("<hr style='margin:15px 0;'>", unsafe_allow_html=True)
-
-                else:
-                    st.error("Unexpected response format")
+                    st.markdown("<hr>", unsafe_allow_html=True)
 
             except Exception as e:
-                st.error(str(e))
+                st.error(f"Connection failed: {e}")
 
 
 # ================= ROUTING =================

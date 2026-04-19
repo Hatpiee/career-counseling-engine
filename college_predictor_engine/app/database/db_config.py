@@ -3,32 +3,37 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 from dotenv import load_dotenv
 
-# Load .env (for local development only)
+# Load environment variables from .env
 load_dotenv()
 
-# Use DATABASE_URL directly (works for Render)
-DATABASE_URL = os.getenv("DATABASE_URL")
+# Fetch DB credentials
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT")
+DB_NAME = os.getenv("DB_NAME")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 
-if not DATABASE_URL:
-    raise ValueError("DATABASE_URL is not set")
+# Validate env variables (important)
+if not all([DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD]):
+    raise ValueError("Database environment variables are missing. Check your .env file.")
 
-# Fix for Render PostgreSQL SSL (important)
-if "render.com" in DATABASE_URL:
-    engine = create_engine(
-        DATABASE_URL,
-        connect_args={"sslmode": "require"}
-    )
-else:
-    engine = create_engine(DATABASE_URL)
+# Construct DATABASE URL
+DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
+# Create engine
+engine = create_engine(DATABASE_URL)
+
+# Session setup
 SessionLocal = sessionmaker(
     autocommit=False,
     autoflush=False,
     bind=engine
 )
 
+# Base model
 Base = declarative_base()
 
+# Dependency for FastAPI
 def get_db():
     db = SessionLocal()
     try:
