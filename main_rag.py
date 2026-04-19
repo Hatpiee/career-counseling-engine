@@ -19,6 +19,8 @@ app = FastAPI()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 ASSEMBLYAI_API_KEY = os.getenv("ASSEMBLYAI_API_KEY")
+print("GROQ:", os.getenv("GROQ_API_KEY"))
+print("GOOGLE:", os.getenv("GOOGLE_API_KEY"))
 
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY is missing in .env")
