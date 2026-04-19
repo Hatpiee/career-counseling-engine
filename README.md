@@ -1,211 +1,286 @@
-# Career Counseling Engine
+# 🎓 Career Counseling Engine
 
-Backend system for an AI-powered career counseling platform that recommends colleges and generates personalized career roadmaps.
+An AI-powered career counseling platform that helps students:
 
-Currently this repository contains the **data layer**, including PostgreSQL integration, ORM models, and query services.
+* 🎯 Predict suitable colleges based on rank & academic profile
+* 💼 Get personalized career recommendations
+* 🧭 Receive structured roadmaps and required skills
 
 ---
 
-# Project Structure
+# 🚀 Features
 
-```id="f4d9xg"
-career-counseling-engine
+## 🎯 College Predictor
+
+* Uses rank + board percentage
+* Categorizes colleges into:
+
+  * Dream
+  * Target
+  * Safe
+* Backed by PostgreSQL dataset
+
+---
+
+## 💼 Career Recommendation (AI-powered)
+
+* Natural language input (user interests)
+* AI-based career matching
+* Outputs:
+
+  * Match score
+  * Skills required
+  * Step-by-step roadmap
+
+---
+
+## ⚙️ Full Stack System
+
+| Layer    | Technology |
+| -------- | ---------- |
+| Frontend | Streamlit  |
+| Backend  | FastAPI    |
+| Database | PostgreSQL |
+| ORM      | SQLAlchemy |
+| AI       | Groq + LLM |
+
+---
+
+# 🧩 Project Structure
+
+```
+career-counseling-engine/
 │
-├── database
-│   ├── db_config.py        # Database connection setup
-│   ├── models.py           # SQLAlchemy ORM models
-│   └── init_db.py          # Database initialization
+├── college_predictor_engine/
+│   ├── app/
+│   │   └── database/
+│   │       ├── db_config.py
+│   │       ├── models.py
+│   │       └── init_db.py
+│   │
+│   ├── services/
+│   │   └── college_query_service.py
+│   │
+│   ├── data/
+│   │   └── colleges_master_final_with_cutoff.csv
 │
-├── services
-│   └── college_query_service.py   # Query layer
+├── services/
+│   ├── career_matcher.py
+│   ├── profile_extractor.py
+│   └── retriever.py
 │
-├── data
-│   └── colleges_master_final.csv  # Dataset
-│
-├── scripts                 # Data preparation scripts
-│
-├── main.py                 # Backend entry point (future API layer)
-├── requirements.txt        # Python dependencies
-├── .gitignore
+├── main_rag.py              # FastAPI backend
+├── app.py                   # Streamlit frontend
+├── requirements.txt
+├── .env
 └── README.md
 ```
 
 ---
 
-# Setup Instructions
+# ⚙️ Setup Instructions
 
-Clone the repository:
+## 1️⃣ Clone Repository
 
-```id="3k6k5o"
+```bash
 git clone <repo-url>
 cd career-counseling-engine
 ```
 
-Create a virtual environment:
+---
 
-```id="tr4y0p"
+## 2️⃣ Create Virtual Environment
+
+```bash
 python -m venv .venv
 ```
 
-Activate the environment:
+### Activate
 
-Windows:
+**Windows**
 
-```id="z8xw7v"
+```bash
 .venv\Scripts\activate
 ```
 
-Install dependencies:
+---
 
-```id="p7wzde"
+## 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-Create a `.env` file in the root directory:
+---
 
-```id="y4qk2t"
+## 4️⃣ Setup Environment Variables
+
+Create a `.env` file in root:
+
+```env
+# DATABASE
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=career_counseling_db
 DB_USER=postgres
 DB_PASSWORD=your_password
+
+# API KEYS
+GROQ_API_KEY=your_key
+GOOGLE_API_KEY=your_key
+ASSEMBLYAI_API_KEY=your_key
 ```
 
 ---
 
-# Git Branch Structure
+## 5️⃣ Setup PostgreSQL
 
-The repository uses a **very simple branching system**.
+* Open pgAdmin
+* Create database:
 
-```id="l6z3hk"
-main
-dev
-dev-shreyash
 ```
-
-### Branch Purpose
-
-```id="q2e1sm"
-main  → Stable production-ready code
-dev   → Shared development branch
-dev-shreyash → Personal development branch
+career_counseling_db
 ```
 
 ---
 
-# IMPORTANT RULES (READ BEFORE PUSHING CODE)
+## 6️⃣ Run Backend
 
-### Rule 1 — NEVER push directly to `main`
+```bash
+uvicorn main_rag:app --reload --port 8000
+```
 
-`main` must always remain clean and stable.
+Check:
 
-Do **not** run:
+```
+http://127.0.0.1:8000/docs
+```
 
-```id="fpx4bg"
+---
+
+## 7️⃣ Run Frontend
+
+```bash
+streamlit run app.py
+```
+
+👉 Frontend automatically starts backend if not running
+
+---
+
+# 🔌 API Endpoints
+
+| Endpoint            | Method | Description              |
+| ------------------- | ------ | ------------------------ |
+| `/predict-college`  | POST   | College prediction       |
+| `/chat`             | POST   | Career recommendations   |
+| `/transcribe`       | POST   | Audio transcription      |
+| `/recommend-career` | POST   | Structured career output |
+
+---
+
+# 🧠 System Architecture
+
+```
+User → Streamlit UI
+      ↓
+FastAPI Backend (main_rag.py)
+      ↓
+├── College Predictor (PostgreSQL)
+├── Career Matcher (LLM)
+└── Retriever (RAG pipeline)
+```
+
+---
+
+# 🌿 Git Branch Strategy
+
+| Branch       | Purpose                |
+| ------------ | ---------------------- |
+| main         | Stable production code |
+| dev          | Shared development     |
+| dev-shreyash | Personal work          |
+
+---
+
+## 🚫 Rules
+
+### ❌ Never push directly to main
+
+```bash
 git push origin main
 ```
 
 ---
 
-### Rule 2 — First create or switch to your development branch
+### ✅ Development Workflow
 
-Before starting work, move to the development branch.
-
-```id="3zgrj3"
+```bash
 git checkout dev
 git pull origin dev
+
 git checkout dev-shreyash
 ```
 
-All work must be done inside:
+Work:
 
-```id="2rqgex"
-dev-shreyash
-```
-
----
-
-### Rule 3 — Do your work and commit normally
-
-Example workflow:
-
-```id="n9x2jv"
+```bash
 git add .
-git commit -m "add new feature"
+git commit -m "feature added"
 git push origin dev-shreyash
 ```
 
----
+Then create PR:
 
-### Rule 4 — Create a Pull Request
-
-After pushing your changes, open GitHub and create a **Pull Request**.
-
-```id="o3m2ti"
+```
 dev-shreyash → dev
 ```
 
-This merges your work into the shared development branch.
+Final merge:
 
----
-
-### Rule 5 — Only merge dev → main when stable
-
-When the project is stable and tested, merge:
-
-```id="n1s0qk"
+```
 dev → main
 ```
 
-This keeps the `main` branch clean.
-
 ---
 
-# Development Flow
+# 📦 Current Status
 
-```id="c4spjz"
-dev-shreyash
-        ↓
-       dev
-        ↓
-       main
-```
-
----
-
-# Current Completed Module
-
-The **data layer** is implemented.
-
-It includes:
-
-* PostgreSQL database connection
-* SQLAlchemy ORM models
-* College query service
-
-Main file:
-
-```id="b17rqh"
-services/college_query_service.py
-```
-
-Example usage:
-
-```id="4n7yep"
-from database.db_config import SessionLocal
-from services.college_query_service import get_all_colleges
-
-db = SessionLocal()
-colleges = get_all_colleges(db)
-```
-
----
-
-# Next Modules
-
-Planned components:
+### ✅ Completed
 
 * College Predictor Engine
+* Career Recommendation System
+* FastAPI Backend
+* Streamlit Frontend
+* PostgreSQL Integration
+
+---
+
+### 🚧 Future Enhancements
+
 * NLP Query Parser
-* FastAPI API Layer
-* Career Roadmap Generator
+* Better ranking algorithm
+* UI improvements
+* Deployment-ready architecture
+* Model optimization (memory-safe)
+
+---
+
+# ⚠️ Notes
+
+* Backend runs locally (not deployed)
+* Requires PostgreSQL running
+* Heavy AI models may not work on low-memory cloud platforms
+
+---
+
+# 👨‍💻 Author
+
+Shreyash Tripathy
+Career Counseling Engine Project
+
+---
+
+# ⭐ If you like this project
+
+Give it a star ⭐ on GitHub
