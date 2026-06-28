@@ -1,6 +1,6 @@
-# 🎓 Career Counseling Engine
+# Hybrid Career Intelligence and College Recommendation Platform
 
-An AI-powered career counseling platform that helps students:
+An AI-powered career intelligence platform that helps students:
 
 * 🎯 Predict suitable colleges based on rank & academic profile
 * 💼 Get personalized career recommendations
@@ -277,7 +277,7 @@ dev → main
 # 👨‍💻 Author
 
 Shreyash Tripathy
-Career Counseling Engine Project
+Hybrid Career Intelligence and College Recommendation Platform
 
 ---
 
